@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shadow {
+  text-shadow: 0.1rem 0.1rem 0.4rem black;
+}
+
+.alice {
+  font-family: alice;
+}
