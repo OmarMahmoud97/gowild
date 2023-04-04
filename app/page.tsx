@@ -1,7 +1,8 @@
 import { Alice } from "@next/font/google";
 import Nav from "../components/nav/page";
-import Landing from "./landing/page";
-
+import Footer from "@/components/footer/page";
+import HomePage from "./home/page";
+import MobileNav from "@/components/mobileNav/page";
 const customFont = Alice({
   subsets: ["latin"],
   display: "swap",
@@ -11,8 +12,14 @@ const customFont = Alice({
 export default function Home() {
   return (
     <main className={customFont.className}>
-      {/* <Nav /> */}
-      <Landing />
+      <div className="mainnav">
+        <Nav />
+      </div>
+      <div className="mobilenav">
+        <MobileNav />
+      </div>
+      <HomePage />
+      <Footer />
     </main>
   );
 }
