@@ -9,8 +9,8 @@ function Footer() {
         <div className="w-1/3">
           <Image alt="running dog" className="w-72" src={running}></Image>
         </div>
-        <div className="w-1/3 flex items-center justify-center flex-col">
-          <p>&copy; Go Wild Pet Services</p>
+        <div className="w-1/3 text-white flex items-center justify-center flex-col">
+          <p className="mb-2">&copy; Go Wild Pet Services</p>
           <div className="flex items-center justify-evenly w-1/2">
             <a href="" target="_blank">
               <Image src={Facebook} alt="Facebook Link"></Image>

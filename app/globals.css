@@ -22,32 +22,6 @@
   scrollbar-width: none; /* Firefox */
 }
 
-.gradient {
-  background: radial-gradient(
-    ellipse,
-    rgba(140, 72, 66, 1) 0%,
-    rgba(1, 1, 1, 0) 70%
-  );
-  padding: 0.4rem 0.6rem;
-
-  border-radius: 100%;
-  transition: 0.3s ease-in-out;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-shadow: black 0.2rem 0.2rem 0.3rem;
-}
-
-.hover:hover {
-  background: radial-gradient(
-    ellipse,
-    rgba(140, 72, 66, 1) 0%,
-    rgba(1, 1, 1, 0) 70%
-  );
-  padding: 0.75rem 2.5rem;
-
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
 .nav-height {
   height: 10%;
 }
@@ -69,6 +43,9 @@
   .hover:hover {
     padding: 1rem 5rem;
   }
+}
+.bradius {
+  border-radius: 0 0 5rem 5rem;
 }
 
 .orange {
