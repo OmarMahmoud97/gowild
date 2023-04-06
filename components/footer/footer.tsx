@@ -9,7 +9,9 @@ function Footer() {
     <footer className="w-screen footer flex justify-center items-center bg-[#1d5d17]">
       <div className="w-[64rem] flex items-center justify-evenly">
         <div className="w-1/3">
-          <Image alt="logo - go wild" className="w-28" src={Logo1}></Image>
+          <Link href="/">
+            <Image alt="logo - go wild" className="w-28" src={Logo1}></Image>
+          </Link>
         </div>
         <div className="flex items-center justify-start"></div>
         <ul className="flex h-[6rem] items-start  justify-start flex-col">
@@ -49,13 +51,21 @@ function Footer() {
                 href="https://www.facebook.com/gowild.dogwalking/?fref=mentions&paipv=0&eav=Afa4SGTnMS91DVJMaFBZdN7LC6ZL8itSucyRlEkW9FCAfBLhTF-_ohnLVPdKgz1UMAw&_rdr"
                 target="_blank"
               >
-                <Image src={Facebook} alt="Facebook Link"></Image>
+                <Image
+                  src={Facebook}
+                  className="hover:scale-[1.2]"
+                  alt="Facebook Link"
+                ></Image>
               </a>
               <a
                 href="https://www.instagram.com/gowild_dogwalking/"
                 target="_blank"
               >
-                <Image src={Instagram} alt="Instagram Link"></Image>
+                <Image
+                  src={Instagram}
+                  className="hover:scale-[1.2]"
+                  alt="Instagram Link"
+                ></Image>
               </a>
             </div>
             <p className="text-white">&copy; Go Wild Pet Services</p>
