@@ -1,7 +1,7 @@
 import "./dog.css";
 function Dog() {
   return (
-    <div className="main w-[85vw] sm:justify-end">
+    <div className="main w-[85vw] sm:justify-end m-4">
       <div className="dog">
         <div className="dog__paws">
           <div className="dog__bl-leg leg">

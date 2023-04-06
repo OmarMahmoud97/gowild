@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo1 from "../../public/assets/Logo/logo2.png";
+import Logo1 from "../../public/assets/Logo/goWildLogo.png";
 import Facebook from "../../public/assets/footer/Facebook.svg";
 import Instagram from "../../public/assets/footer/Instagram.svg";
 function Footer() {
@@ -7,7 +7,7 @@ function Footer() {
     <footer className="w-screen footer flex justify-center items-center bg-[#1d5d17]">
       <div className="w-[64rem] flex items-center justify-evenly">
         <div className="w-1/3">
-          <Image alt="running dog" className="w-28" src={Logo1}></Image>
+          <Image alt="logo - go wild" className="w-28" src={Logo1}></Image>
         </div>
         <div className="flex items-center justify-start"></div>
         <ul className="flex h-[6rem] items-start  justify-start flex-col">
@@ -34,7 +34,7 @@ function Footer() {
           <a href="/policy">
             <li className="text-white hover:text-black">Privacy Policy</li>
           </a>
-          <a href="/tos">
+          <a href="/terms">
             <li className="text-white hover:text-black">
               Terms and Conditions
             </li>
@@ -43,14 +43,20 @@ function Footer() {
         <div className="w-1/3 text-white hover:text-black flex items-center justify-end">
           <div className="flex items-center justify-between flex-col h-[6rem]">
             <div className="flex items-center justify-evenly w-1/2">
-              <a href="" target="_blank">
+              <a
+                href="https://www.facebook.com/gowild.dogwalking/?fref=mentions&paipv=0&eav=Afa4SGTnMS91DVJMaFBZdN7LC6ZL8itSucyRlEkW9FCAfBLhTF-_ohnLVPdKgz1UMAw&_rdr"
+                target="_blank"
+              >
                 <Image src={Facebook} alt="Facebook Link"></Image>
               </a>
-              <a href="" target="_blank">
+              <a
+                href="https://www.instagram.com/gowild_dogwalking/"
+                target="_blank"
+              >
                 <Image src={Instagram} alt="Instagram Link"></Image>
               </a>
             </div>
-            <p className="">&copy; Go Wild Pet Services</p>
+            <p className="text-white">&copy; Go Wild Pet Services</p>
           </div>
         </div>
       </div>

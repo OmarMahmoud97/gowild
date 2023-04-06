@@ -33,33 +33,33 @@ const Nav = () => {
       className="fixed flex left-0 top-0 w-full z-10 ease-in duration-300 items-center justify-center backdrop-filter backdrop-blur-md bg-opacity-0 "
     >
       <div className="w-[64rem]">
-        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
+        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 ">
           <Link href="/">
             <Image src={logo} alt="logo icon" className="w-16"></Image>
           </Link>
           <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
             <li className={"p-4 navhover"}>
-              <Link className="shadow1 " href="/">
+              <Link className="shadow1 text-[#41cf34]" href="/">
                 Home
               </Link>
             </li>
             <li className={"p-4 navhover"}>
-              <Link className="shadow1" href="/about">
+              <Link className="shadow1 text-[#41cf34]" href="/about">
                 About
               </Link>
             </li>
             <li className={"p-4 navhover"}>
-              <Link className="shadow1" href="/services">
+              <Link className="shadow1 text-[#41cf34]" href="/services">
                 Services
               </Link>
             </li>
             <li className={"p-4 navhover"}>
-              <Link className="shadow1" href="/gallery">
+              <Link className="shadow1 text-[#41cf34]" href="/gallery">
                 Gallery
               </Link>
             </li>
             <li className={"p-4 navhover"}>
-              <Link className="shadow1" href="/contact">
+              <Link className="shadow1 text-[#41cf34]" href="/contact">
                 Contact
               </Link>
             </li>
