@@ -4,14 +4,11 @@ import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
 import logo from "../../public/assets/Logo/logo2.png";
-import { useRouter } from "next/router";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
-  const router = useRouter();
-  const currentRoute = router.pathname;
 
   const handleNav = () => {
     setNav(!nav);
@@ -41,53 +38,27 @@ const Nav = () => {
             <Image src={logo} alt="logo icon" className="w-16"></Image>
           </Link>
           <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-            <li
-              className={
-                currentRoute === "/home" ? "active-class-name" : "p-4 navhover"
-              }
-            >
+            <li className={"p-4 navhover"}>
               <Link className="shadow1 " href="/">
                 Home
               </Link>
             </li>
-            <li
-              className={
-                currentRoute === "/about" ? "active-class-name" : "p-4 navhover"
-              }
-            >
+            <li className={"p-4 navhover"}>
               <Link className="shadow1" href="/about">
                 About
               </Link>
             </li>
-            <li
-              className={
-                currentRoute === "/services"
-                  ? "active-class-name"
-                  : "p-4 navhover"
-              }
-            >
+            <li className={"p-4 navhover"}>
               <Link className="shadow1" href="/services">
                 Services
               </Link>
             </li>
-            <li
-              className={
-                currentRoute === "/some-path"
-                  ? "active-class-name"
-                  : "p-4 navhover"
-              }
-            >
+            <li className={"p-4 navhover"}>
               <Link className="shadow1" href="/gallery">
                 Gallery
               </Link>
             </li>
-            <li
-              className={
-                currentRoute === "/some-path"
-                  ? "active-class-name"
-                  : "p-4 navhover"
-              }
-            >
+            <li className={"p-4 navhover"}>
               <Link className="shadow1" href="/contact">
                 Contact
               </Link>

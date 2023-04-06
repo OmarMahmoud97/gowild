@@ -62,6 +62,7 @@
 }
 .footer {
   height: 25vh;
+  border-radius: 4rem 4rem 0 0;
 }
 .navhover {
   transition: 0.25s ease-in-out;
