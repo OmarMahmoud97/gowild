@@ -2,7 +2,7 @@ import React from "react";
 
 function Copy() {
   return (
-    <div className="flex items-center justify-center h-72 mt-8">
+    <div className="flex items-center justify-center h-72 mt-8  ">
       <p className=" xl:w-[46rem] text-lg p-4 text-center">
         Welcome to Go Wild! <br /> where exceptional pet care meets boundless
         love! Our expertise spans a colorful array of pets, from cuddly dogs and

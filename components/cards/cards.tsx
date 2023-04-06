@@ -3,36 +3,44 @@ import "./cards.css";
 function Cards() {
   return (
     <div className="w-screen h-[150vh] sm:h-[115vh] md:h-[115vh] lg:h-[60vh] xl:h-[60vh] gradient2 flex items-center justify-center card-query">
-      <main className="page-content">
-        <div className="card">
-          <div className="content">
-            <h2 className="title shadow1">About Us</h2>
+      <main className="page-content grid p-4 max-w-screen-lg">
+        <div className="card relative flex items-end overflow-hidden p-4 w-full text-center rounded-lg">
+          <div className="content relative flex flex-col items-center w-full p-4 mt-4">
+            <h2 className="title text-xl font-bold shadow1">About Us</h2>
             <p className="copy">Get to know our story!</p>
-            <button className="btn">More about us</button>
+            <button className="btn cursor-pointer mt-6 text-xs font-bold uppercase text-white bg-green-600">
+              More about us
+            </button>
           </div>
         </div>
-        <div className="card">
-          <div className="content">
-            <h2 className="title shadow1">Services</h2>
+        <div className="card relative flex items-end overflow-hidden p-4 w-full text-center rounded-lg ">
+          <div className="content relative flex flex-col items-center w-full p-4 mt-4">
+            <h2 className="title text-xl font-bold shadow1">Services</h2>
             <p className="copy">
               We provide services for all kinds of pets! <br /> Fury, Scaley or
               even Spikey
             </p>
-            <button className="btn">Services</button>
+            <button className="btn cursor-pointer mt-6 text-xs font-bold uppercase text-white bg-green-600">
+              Services
+            </button>
           </div>
         </div>
-        <div className="card">
-          <div className="content">
-            <h2 className="title shadow1">Gallery</h2>
+        <div className="card relative flex items-end overflow-hidden p-4 w-full text-center rounded-lg">
+          <div className="content relative flex flex-col items-center w-full p-4 mt-4">
+            <h2 className="title text-xl font-bold shadow1">Gallery</h2>
             <p className="copy">Take a look at some of our wild friends!</p>
-            <button className="btn">Gallery</button>
+            <button className="btn cursor-pointer mt-6 text-xs font-bold uppercase text-white bg-green-600">
+              Gallery
+            </button>
           </div>
         </div>
-        <div className="card">
-          <div className="content">
-            <h2 className="title shadow1">Contact</h2>
+        <div className="card relative flex items-end overflow-hidden p-4 w-full text-center rounded-lg">
+          <div className="content relative flex flex-col items-center w-full p-4 mt-4">
+            <h2 className="title text-xl font-bold shadow1">Contact</h2>
             <p className="copy">We would love to hear from you! </p>
-            <button className="btn">Contact us</button>
+            <button className="btn cursor-pointer mt-6 text-xs font-bold uppercase text-white bg-green-600">
+              Contact us
+            </button>
           </div>
         </div>
       </main>

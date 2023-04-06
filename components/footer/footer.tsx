@@ -2,6 +2,8 @@ import Image from "next/image";
 import Logo1 from "../../public/assets/Logo/goWildLogo.png";
 import Facebook from "../../public/assets/footer/Facebook.svg";
 import Instagram from "../../public/assets/footer/Instagram.svg";
+import Link from "next/link";
+
 function Footer() {
   return (
     <footer className="w-screen footer flex justify-center items-center bg-[#1d5d17]">
@@ -11,34 +13,34 @@ function Footer() {
         </div>
         <div className="flex items-center justify-start"></div>
         <ul className="flex h-[6rem] items-start  justify-start flex-col">
-          <a href="/">
+          <Link href="/">
             <li className="text-white hover:text-black">Home</li>
-          </a>
-          <a href="/about">
+          </Link>
+          <Link href="/about">
             <li className="text-white hover:text-black">About us</li>
-          </a>
-          <a href="/services">
+          </Link>
+          <Link href="/services">
             <li className="text-white hover:text-black">Services</li>
-          </a>
-          <a href="/gallery">
+          </Link>
+          <Link href="/gallery">
             <li className="text-white hover:text-black">Gallery</li>
-          </a>
+          </Link>
         </ul>
         <ul className="flex h-[6rem] items-start justify-start flex-col">
-          <a href="/contact">
+          <Link href="/contact">
             <li className="text-white hover:text-black">Contact</li>
-          </a>
-          <a href="/careers">
+          </Link>
+          <Link href="/careers">
             <li className="text-white hover:text-black">Careers</li>
-          </a>
-          <a href="/policy">
+          </Link>
+          <Link href="/policy">
             <li className="text-white hover:text-black">Privacy Policy</li>
-          </a>
-          <a href="/terms">
+          </Link>
+          <Link href="/terms">
             <li className="text-white hover:text-black">
               Terms and Conditions
             </li>
-          </a>
+          </Link>
         </ul>
         <div className="w-1/3 text-white hover:text-black flex items-center justify-end">
           <div className="flex items-center justify-between flex-col h-[6rem]">
