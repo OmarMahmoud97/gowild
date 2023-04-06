@@ -18,10 +18,10 @@ const Nav = () => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
         setColor("#ffffff");
-        setTextColor("#000000");
+        setTextColor("#41cf34");
       } else {
         setColor("transparent");
-        setTextColor("#ffffff");
+        setTextColor("#41cf34");
       }
     };
     window.addEventListener("scroll", changeColor);
