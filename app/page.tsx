@@ -12,7 +12,7 @@ const customFont = Alice({
 export default function Home() {
   return (
     <main className={customFont.className}>
-      <div className="mainnav">
+      <div className="mainnav sticky top-0 z-10 bg-opacity-10 bg-white backdrop-filter backdrop-blur-lg">
         <Nav />
       </div>
       <div className="mobilenav">

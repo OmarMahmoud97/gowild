@@ -34,7 +34,7 @@
 }
 
 .emptyrow {
-  height: 40vh;
+  height: 30vh;
 }
 @media (min-width: 620px) {
   .gradient {
@@ -64,6 +64,10 @@
   color: #41cf34;
 }
 
+.overlay {
+  background-color: rgba(89, 93, 91, 0.4);
+  border-radius: 0 0 5rem 5rem;
+}
 .footer {
   height: 25vh;
 }
@@ -83,7 +87,12 @@
     display: block;
   }
   .dog {
-    scale: 0.75;
+    scale: 0.5;
+  }
+  .dogcontainer {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -95,6 +104,6 @@
     display: none;
   }
   .dog {
-    scale: 1;
+    scale: 0.7;
   }
 }

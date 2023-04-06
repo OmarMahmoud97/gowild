@@ -10,6 +10,7 @@ function Landing() {
       >
         <source src="assets/backgrounds/dogrunning.mp4" type="video/mp4" />
       </video>
+      <div className="absolute h-[85vh] w-screen overlay"></div>
       <div className="flex absolute w-full flex-col">
         <div className="flex justify-center items-center">
           <div className="flex justify-center items-start flex-col w-[64rem]">

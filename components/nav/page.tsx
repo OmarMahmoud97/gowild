@@ -2,8 +2,8 @@
 import Image from "next/image";
 import Logo from "../../public/assets/Logo/Logo3.png";
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About Us", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "About Us", href: "about", current: false },
   { name: "Services", href: "#", current: false },
   { name: "Gallery", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
