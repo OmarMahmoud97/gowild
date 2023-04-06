@@ -1,43 +1,146 @@
 "use client";
+import Link from "next/link";
+import { useState, useEffect } from "react";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
-import Logo from "../../public/assets/Logo/Logo3.png";
-const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "About Us", href: "about", current: false },
-  { name: "Services", href: "#", current: false },
-  { name: "Gallery", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
-];
+import logo from "../../public/assets/Logo/logo2.png";
+import { useRouter } from "next/router";
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
+const Nav = () => {
+  const [nav, setNav] = useState(false);
+  const [color, setColor] = useState("transparent");
+  const [textColor, setTextColor] = useState("white");
+  const router = useRouter();
+  const currentRoute = router.pathname;
 
-export default function Nav() {
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 90) {
+        setColor("#ffffff");
+        setTextColor("#000000");
+      } else {
+        setColor("transparent");
+        setTextColor("#ffffff");
+      }
+    };
+    window.addEventListener("scroll", changeColor);
+  }, []);
+
   return (
-    <nav className="  sticky top-0 z-10 bg-opacity-10 bg-white backdrop-filter backdrop-blur-lg">
-      <div className="max-w-5xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <Image src={Logo} alt="go wild logo" className="w-16"></Image>
-          <div className="flex space-y-1 px-2 pb-3 pt-2">
-            {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className={classNames(
-                  item.current
-                    ? "bg-[#41CF34] text-white m-0 ml-2  w-20 text-center mt-[4px]"
-                    : "text-[#41cf34] hover:bg-[#41cf34] hover:text-white m-0 ml-2 w-26 text-center",
-                  "block rounded-md px-3 py-2 text-base font-medium"
-                )}
-                aria-current={item.current ? "page" : undefined}
+    <nav
+      style={{ backgroundColor: `${color}` }}
+      className="fixed flex left-0 top-0 w-full z-10 ease-in duration-300 items-center justify-center backdrop-filter backdrop-blur-md bg-opacity-0 "
+    >
+      <div className="w-[64rem]">
+        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
+          <Link href="/">
+            <Image src={logo} alt="logo icon" className="w-16"></Image>
+          </Link>
+          <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
+            <li
+              className={
+                currentRoute === "/home" ? "active-class-name" : "p-4 navhover"
+              }
+            >
+              <Link className="shadow1 " href="/">
+                Home
+              </Link>
+            </li>
+            <li
+              className={
+                currentRoute === "/about" ? "active-class-name" : "p-4 navhover"
+              }
+            >
+              <Link className="shadow1" href="/about">
+                About
+              </Link>
+            </li>
+            <li
+              className={
+                currentRoute === "/services"
+                  ? "active-class-name"
+                  : "p-4 navhover"
+              }
+            >
+              <Link className="shadow1" href="/services">
+                Services
+              </Link>
+            </li>
+            <li
+              className={
+                currentRoute === "/some-path"
+                  ? "active-class-name"
+                  : "p-4 navhover"
+              }
+            >
+              <Link className="shadow1" href="/gallery">
+                Gallery
+              </Link>
+            </li>
+            <li
+              className={
+                currentRoute === "/some-path"
+                  ? "active-class-name"
+                  : "p-4 navhover"
+              }
+            >
+              <Link className="shadow1" href="/contact">
+                Contact
+              </Link>
+            </li>
+          </ul>
+
+          {/* Mobile Button */}
+          <div onClick={handleNav} className="block sm:hidden z-10">
+            {nav ? (
+              <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            ) : (
+              <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+            )}
+          </div>
+          {/* Mobile Menu */}
+          <div
+            className={
+              nav
+                ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#41cf34] text-center ease-in duration-300"
+                : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#41cf34] text-center ease-in duration-300"
+            }
+          >
+            <ul>
+              <li
+                onClick={handleNav}
+                className="p-4 text-4xl hover:text-gray-500"
               >
-                {item.name}
-              </a>
-            ))}
+                <Link href="/">Home</Link>
+              </li>
+              <li
+                onClick={handleNav}
+                className="p-4 text-4xl hover:text-gray-500"
+              >
+                <Link href="/#gallery">Gallery</Link>
+              </li>
+              <li
+                onClick={handleNav}
+                className="p-4 text-4xl hover:text-gray-500"
+              >
+                <Link href="/work">Work</Link>
+              </li>
+              <li
+                onClick={handleNav}
+                className="p-4 text-4xl hover:text-gray-500"
+              >
+                <Link href="/contact">Contact</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </nav>
   );
-}
+};
+
+export default Nav;

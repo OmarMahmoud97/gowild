@@ -16,14 +16,13 @@
 ::-webkit-scrollbar {
   display: none;
 }
+.radius {
+  border-radius: 2rem;
+}
 
 .scroll1 {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-
-.nav-height {
-  height: 10%;
 }
 
 .font {
@@ -36,14 +35,7 @@
 .emptyrow {
   height: 30vh;
 }
-@media (min-width: 620px) {
-  .gradient {
-    padding: 0.5rem 1.5rem;
-  }
-  .hover:hover {
-    padding: 1rem 5rem;
-  }
-}
+
 .bradius {
   border-radius: 0 0 5rem 5rem;
 }
@@ -71,39 +63,42 @@
 .footer {
   height: 25vh;
 }
-/* .gradient2 {
-  background: linear-gradient(
-    180deg,
-    rgba(17, 19, 18, 1) 0%,
-    rgba(255, 255, 255, 0) 33%
+.navhover {
+  transition: 0.25s ease-in-out;
+}
+.navhover:hover {
+  color: #41cf34;
+  background: radial-gradient(
+    ellipse,
+    rgba(71, 71, 71, 0.2) 5%,
+    rgba(255, 255, 255, 0) 60%
   );
-} */
+  border-radius: 1rem;
+  scale: 1.1;
+}
 
 @media (min-width: 300px) {
-  .mainnav {
-    display: none;
-  }
-  .mobilenav {
-    display: block;
-  }
   .dog {
-    scale: 0.5;
+    scale: 0.35;
   }
   .dogcontainer {
     width: 100vw;
     align-items: center;
     justify-content: center;
   }
+  .hide {
+    display: none;
+  }
 }
 
 @media (min-width: 620px) {
-  .mainnav {
-    display: block;
-  }
-  .mobilenav {
-    display: none;
-  }
   .dog {
-    scale: 0.7;
+    scale: 0.5;
+  }
+  .gradient {
+    padding: 0.5rem 1.5rem;
+  }
+  .hover:hover {
+    padding: 1rem 5rem;
   }
 }

@@ -8,7 +8,7 @@ function HomePage() {
       <Landing />
       <div className="flex flex-col items-center justify-center">
         <Cards />
-        <div className="sm:w-[72rem] dogcontainer flex sm:items-center sm:justify-end">
+        <div className="sm:w-[100vw] dogcontainer flex sm:items-center sm:justify-center">
           <Dog />
         </div>
       </div>

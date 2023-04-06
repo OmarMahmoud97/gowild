@@ -1,4 +1,3 @@
-"use client";
 function Landing() {
   return (
     <section className="flex items-center justify-center w-screen flex-col relative">
@@ -13,7 +12,7 @@ function Landing() {
       <div className="absolute h-[85vh] w-screen overlay"></div>
       <div className="flex absolute w-full flex-col">
         <div className="flex justify-center items-center">
-          <div className="flex justify-center items-start flex-col w-[64rem]">
+          <div className=" pl-2 flex justify-center items-start flex-col w-[64rem]">
             <h1 className="text-white text-7xl  shadorange shadow2 font pb-1">
               Go Wild
             </h1>
@@ -25,7 +24,7 @@ function Landing() {
             </h2>
           </div>
         </div>
-        <div className="w-screen emptyrow"></div>
+        <div className="w-screen emptyrow hide"></div>
       </div>
     </section>
   );
