@@ -7,44 +7,46 @@ import Link from "next/link";
 function Footer() {
   return (
     <footer className="w-screen footer flex justify-center items-center bg-[#1d5d17]">
-      <div className="w-[64rem] flex items-center justify-evenly">
-        <div className="w-1/3">
+      <div className="w-[64rem] flex items-center justify-between">
+        <div>
           <Link href="/">
             <Image alt="logo - go wild" className="w-28" src={Logo1}></Image>
           </Link>
         </div>
-        <div className="flex items-center justify-start"></div>
-        <ul className="flex h-[6rem] items-start  justify-start flex-col">
-          <Link href="/">
-            <li className="text-white hover:text-black">Home</li>
-          </Link>
-          <Link href="/about">
-            <li className="text-white hover:text-black">About us</li>
-          </Link>
-          <Link href="/services">
-            <li className="text-white hover:text-black">Services</li>
-          </Link>
-          <Link href="/gallery">
-            <li className="text-white hover:text-black">Gallery</li>
-          </Link>
-        </ul>
-        <ul className="flex h-[6rem] items-start justify-start flex-col">
-          <Link href="/contact">
-            <li className="text-white hover:text-black">Contact</li>
-          </Link>
-          <Link href="/careers">
-            <li className="text-white hover:text-black">Careers</li>
-          </Link>
-          <Link href="/policy">
-            <li className="text-white hover:text-black">Privacy Policy</li>
-          </Link>
-          <Link href="/terms">
-            <li className="text-white hover:text-black">
-              Terms and Conditions
-            </li>
-          </Link>
-        </ul>
-        <div className="w-1/3 text-white hover:text-black flex items-center justify-end">
+        <div className="flex items-center justify-center">
+          <ul className="flex h-[6rem] items-start mr-4  justify-start flex-col">
+            <Link href="/">
+              <li className="text-white hover:text-black">Home</li>
+            </Link>
+            <Link href="/about">
+              <li className="text-white hover:text-black">About us</li>
+            </Link>
+            <Link href="/services">
+              <li className="text-white hover:text-black">Services</li>
+            </Link>
+            <Link href="/gallery">
+              <li className="text-white hover:text-black">Gallery</li>
+            </Link>
+          </ul>
+          <ul className="flex h-[6rem] items-start justify-start flex-col">
+            <Link href="/contact">
+              <li className="text-white hover:text-black">Contact</li>
+            </Link>
+            <Link href="/careers">
+              <li className="text-white hover:text-black">Careers</li>
+            </Link>
+            <Link href="/policy">
+              <li className="text-white hover:text-black">Privacy Policy</li>
+            </Link>
+            <Link href="/terms">
+              <li className="text-white hover:text-black">
+                Terms and Conditions
+              </li>
+            </Link>
+          </ul>
+        </div>
+
+        <div className=" text-white hover:text-black flex items-center justify-end">
           <div className="flex items-center justify-between flex-col h-[6rem]">
             <div className="flex items-center justify-evenly w-1/2">
               <a

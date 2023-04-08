@@ -2,8 +2,8 @@ import Image from "next/image";
 import rachJack from "../../public/assets/about/rach-jack.png";
 function About() {
   return (
-    <div className="w-screen h-[100vh] flex items-center justify-center flex-col mt-[2rem]">
-      <h1 className="text-5xl mb-4">About us</h1>
+    <div className="w-screen h-[100vh] flex items-center justify-center flex-col ">
+      <h1 className="text-3xl mb-[1rem] font-bold">About us</h1>
       <div className="flex items-center justify-center w-[70rem]">
         <div className="flex items-center justify-center flex-col w-1/2 mr-6">
           <p className="text-center mb-2">Hello there!</p>

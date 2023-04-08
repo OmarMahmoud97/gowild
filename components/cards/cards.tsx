@@ -33,7 +33,7 @@ function Cards() {
         <div className="card relative flex items-end overflow-hidden p-4 w-full text-center rounded-lg">
           <div className="content relative flex flex-col items-center w-full p-4 mt-4">
             <h2 className="title text-xl font-bold shadow1">Gallery</h2>
-            <p className="copy">Take a look at some of our wild friends!</p>
+            <p className="copy">Take a look at our wild family!</p>
 
             <Link href="/about">
               <button className="btn cursor-pointer mt-6 text-xs font-bold uppercase text-white bg-green-600">

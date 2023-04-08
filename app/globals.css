@@ -77,6 +77,13 @@
   border-radius: 1rem;
   scale: 1.15;
 }
+.service {
+  background: linear-gradient(45deg, #80ffdb, #41cf34);
+  border-radius: 2rem;
+}
+.serv-hover {
+  transition: 0.3s ease-in-out;
+}
 
 @media (min-width: 300px) {
   .dog {

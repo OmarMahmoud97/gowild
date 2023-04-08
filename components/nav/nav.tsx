@@ -39,27 +39,27 @@ const Nav = () => {
           </Link>
           <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
             <li className={"p-4 navhover"}>
-              <Link className="shadow1 text-[#41cf34]" href="/">
+              <Link className="shadow1 font text-[#41cf34]" href="/">
                 Home
               </Link>
             </li>
             <li className={"p-4 navhover"}>
-              <Link className="shadow1 text-[#41cf34]" href="/about">
+              <Link className="shadow1 font text-[#41cf34]" href="/about">
                 About
               </Link>
             </li>
             <li className={"p-4 navhover"}>
-              <Link className="shadow1 text-[#41cf34]" href="/services">
+              <Link className="shadow1 font text-[#41cf34]" href="/services">
                 Services
               </Link>
             </li>
             <li className={"p-4 navhover"}>
-              <Link className="shadow1 text-[#41cf34]" href="/gallery">
+              <Link className="shadow1 font text-[#41cf34]" href="/gallery">
                 Gallery
               </Link>
             </li>
             <li className={"p-4 navhover"}>
-              <Link className="shadow1 text-[#41cf34]" href="/contact">
+              <Link className="shadow1 font text-[#41cf34]" href="/contact">
                 Contact
               </Link>
             </li>
