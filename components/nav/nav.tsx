@@ -68,7 +68,7 @@ const Nav = () => {
           {/* Mobile Button */}
           <div onClick={handleNav} className="block sm:hidden z-10">
             {nav ? (
-              <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+              <AiOutlineClose size={20} style={{ color: "white" }} />
             ) : (
               <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
             )}
@@ -92,13 +92,19 @@ const Nav = () => {
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
               >
-                <Link href="/#gallery">Gallery</Link>
+                <Link href="/about">About</Link>
               </li>
               <li
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
               >
-                <Link href="/work">Work</Link>
+                <Link href="/services">Services</Link>
+              </li>
+              <li
+                onClick={handleNav}
+                className="p-4 text-4xl hover:text-gray-500"
+              >
+                <Link href="/gallery">Gallery</Link>
               </li>
               <li
                 onClick={handleNav}

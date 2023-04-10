@@ -24,7 +24,6 @@ function Landing() {
             </h2>
           </div>
         </div>
-        <div className="w-screen emptyrow hide"></div>
       </div>
     </section>
   );

@@ -2,10 +2,10 @@ import Image from "next/image";
 import rachJack from "../../public/assets/about/rach-jack.png";
 function About() {
   return (
-    <div className="w-screen h-[100vh] flex items-center justify-center flex-col ">
+    <div className="w-screen min-h-[70vh] flex items-center justify-center flex-col mt-[6rem]">
       <h1 className="text-3xl mb-[1rem] font-bold">About us</h1>
-      <div className="flex items-center justify-center w-[70rem]">
-        <div className="flex items-center justify-center flex-col w-1/2 mr-6">
+      <div className="flex flex-col-reverse sm:flex-row items-center justify-center sm:w-[70rem]">
+        <div className="flex items-center justify-center flex-col sm:w-1/2 sm:mr-6 p-4">
           <p className="text-center mb-2">Hello there!</p>
           <p className="text-center mb-2">
             My name is Rachel and I am the founder of Go Wild, a company that
@@ -34,7 +34,7 @@ function About() {
         </div>
 
         <Image
-          className="w-[24rem] radius"
+          className="w-[24rem] p-5 radius"
           src={rachJack}
           alt="Picture of rachel (founder) with a lovely dog"
         ></Image>

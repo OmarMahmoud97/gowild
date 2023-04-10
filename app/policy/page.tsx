@@ -32,7 +32,7 @@ function Policy() {
             privacy rights and choices. If you do not agree with our policies
             and practices, please do not use our Services. If you still have any
             questions or concerns, please contact us at
-            gowild.dogwalking@gmail.com. <br /> <br /> SUMMARY OF KEY POINTS{" "}
+            gowild.dogwalking@gmail.com. <br /> <br /> SUMMARY OF KEY POINTS
             <br /> This summary provides key points from our privacy notice, but
             you can find out more details about any of these topics by clicking
             the link following each key point or by using our table of contents
@@ -69,16 +69,15 @@ function Policy() {
           <br />
         </div>
         <div>
-          {" "}
           <p>
             What are your rights? <br />
-          </p>{" "}
+          </p>
           <p>
             Depending on where you are located geographically, the applicable
             privacy law may mean you have certain rights regarding your personal
             information. Learn more about your privacy rights.
-          </p>{" "}
-          <p>How do you exercise your rights?</p>{" "}
+          </p>
+          <p>How do you exercise your rights?</p>
           <p>
             The easiest way to exercise your rights is by visiting
             https://www.gowilddogwalking.co.uk/contact, or by contacting us. We
@@ -91,18 +90,17 @@ function Policy() {
           </p>
           <p>TABLE OF CONTENTS </p>
           <p>
-            {" "}
             1. WHAT INFORMATION DO WE COLLECT? <br /> <br /> 2. HOW DO WE
             PROCESS YOUR INFORMATION? <br /> <br /> 3. WHAT LEGAL BASES DO WE
             RELY ON TO PROCESS YOUR PERSONAL INFORMATION? <br /> <br /> 4. WHEN
-            AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION? <br /> <br />{" "}
+            AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION? <br /> <br />
             5. HOW LONG DO WE KEEP YOUR INFORMATION? <br /> <br /> 6. HOW DO WE
             KEEP YOUR INFORMATION SAFE? <br /> <br /> 7. DO WE COLLECT
             INFORMATION FROM MINORS? <br /> <br />
             8. WHAT ARE YOUR PRIVACY RIGHTS? <br /> <br /> 9. CONTROLS FOR
             DO-NOT-TRACK FEATURES 10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC
-            PRIVACY RIGHTS? <br /> <br /> 11. DO WE MAKE UPDATES TO THIS NOTICE?{" "}
-            <br /> <br /> 12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? <br />{" "}
+            PRIVACY RIGHTS? <br /> <br /> 11. DO WE MAKE UPDATES TO THIS NOTICE?
+            <br /> <br /> 12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? <br />
             <br /> 13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT
             FROM YOU? <br /> <br />
             1. WHAT INFORMATION DO WE COLLECT? <br /> Personal information you
@@ -118,7 +116,7 @@ function Policy() {
             products and features you use. The personal information we collect
             may include the following:
             <br />
-          </p>{" "}
+          </p>
           <p>
             <ul>
               <li>names</li>

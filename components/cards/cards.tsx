@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./cards.css";
 function Cards() {
   return (
-    <div className="w-screen h-[150vh] sm:h-[115vh] md:h-[115vh] lg:h-[60vh] xl:h-[60vh] gradient2 flex items-center justify-center card-query">
+    <div className="w-screen flex items-center justify-center card-query">
       <main className="page-content grid p-4 max-w-screen-lg">
         <div className="card relative flex items-end overflow-hidden p-4 w-full text-center rounded-lg">
           <div className="content relative flex flex-col items-center w-full p-4 mt-4">
@@ -45,7 +45,7 @@ function Cards() {
         <div className="card relative flex items-end overflow-hidden p-4 w-full text-center rounded-lg">
           <div className="content relative flex flex-col items-center w-full p-4 mt-4">
             <h2 className="title text-xl font-bold shadow1">Contact</h2>
-            <p className="copy">We would love to hear from you! </p>{" "}
+            <p className="copy">We would love to hear from you! </p>
             <Link href="/contact">
               <button className="btn cursor-pointer mt-6 text-xs font-bold uppercase text-white bg-green-600">
                 Contact us

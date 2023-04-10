@@ -6,15 +6,15 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="w-screen footer flex justify-center items-center bg-[#1d5d17]">
-      <div className="w-[64rem] flex items-center justify-between">
+    <footer className="w-screen footer flex justify-center items-center p-2 bg-[#1d5d17]">
+      <div className="w-[64rem] h-full flex items-center justify-between">
         <div>
           <Link href="/">
             <Image alt="logo - go wild" className="w-28" src={Logo1}></Image>
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <ul className="flex h-[6rem] items-start mr-4  justify-start flex-col">
+          <ul className="flex h-full sm:h-[6rem] items-start mr-4  justify-between flex-col">
             <Link href="/">
               <li className="text-white hover:text-black">Home</li>
             </Link>
@@ -28,7 +28,7 @@ function Footer() {
               <li className="text-white hover:text-black">Gallery</li>
             </Link>
           </ul>
-          <ul className="flex h-[6rem] items-start justify-start flex-col">
+          <ul className="flex h-full sm:h-[6rem] items-start justify-between flex-col">
             <Link href="/contact">
               <li className="text-white hover:text-black">Contact</li>
             </Link>
@@ -46,8 +46,8 @@ function Footer() {
           </ul>
         </div>
 
-        <div className=" text-white hover:text-black flex items-center justify-end">
-          <div className="flex items-center justify-between flex-col h-[6rem]">
+        <div className=" text-white hover:text-black flex items-center justify-end h-full">
+          <div className="flex items-center justify-between flex-col h-1/2 sm:h-[6rem]">
             <div className="flex items-center justify-evenly w-1/2">
               <a
                 href="https://www.facebook.com/gowild.dogwalking/?fref=mentions&paipv=0&eav=Afa4SGTnMS91DVJMaFBZdN7LC6ZL8itSucyRlEkW9FCAfBLhTF-_ohnLVPdKgz1UMAw&_rdr"

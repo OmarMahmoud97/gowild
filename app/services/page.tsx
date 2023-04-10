@@ -51,7 +51,7 @@ function Service() {
           </article>
           <article className="flex items-center justify-between flex-col w-[13rem] service h-full p-8">
             <div className="flex items-center justify-between w-full h-full hover:scale-125 flex-col serv-hover">
-              <Image src={bird} alt="house visits" className="w-full"></Image>{" "}
+              <Image src={bird} alt="house visits" className="w-full"></Image>
               <h2 className="text-xl text-bold font text-[#41cf34]">
                 Pet Visits
               </h2>
