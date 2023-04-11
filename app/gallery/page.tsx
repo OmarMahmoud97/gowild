@@ -15,19 +15,18 @@ interface InstagramMedia {
 const Gallery = () => {
   const [media, setMedia] = useState<InstagramMedia[]>([]);
 
-  const fetchInstagramMedia = async () => {
-    try {
-      const response = await axios.get(
-        `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_KEY}`
-      );
-
-      setMedia(response.data.data);
-    } catch (error) {
-      console.error("Error fetching Instagram media:", error);
-    }
-  };
-
   useEffect(() => {
+    const fetchInstagramMedia = async () => {
+      try {
+        const response = await axios.get(
+          `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_KEY}`
+        );
+
+        setMedia(response.data.data);
+      } catch (error) {
+        console.error("Error fetching Instagram media:", error);
+      }
+    };
     fetchInstagramMedia();
   }, []);
 
@@ -39,7 +38,7 @@ const Gallery = () => {
             <img
               src={item.media_url}
               alt={item.caption || "Instagram Image"}
-              className="h-20 m-4"
+              className=" h-56 w-56 object-cover m-4"
             />
           </a>
         </div>
@@ -49,12 +48,14 @@ const Gallery = () => {
   };
 
   return (
-    <div className="mt-[6rem] flex items-center justify-center flex-col">
+    <section className="mt-[6rem] h-[70vh] flex items-center justify-between flex-col">
       <h1 className="font text-3xl">Gallery</h1>
-      <div className="flex flex-wrap items-center justify-center w-[64rem]">
-        {media.map(renderMedia)}
+      <div className="flex items-center justify-center w-full h-full">
+        <div className="flex flex-wrap items-center justify-center w-[64rem]">
+          {media.map(renderMedia)}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
