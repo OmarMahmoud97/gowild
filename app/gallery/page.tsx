@@ -39,7 +39,7 @@ const Gallery = () => {
             <img
               src={item.media_url}
               alt={item.caption || "Instagram Image"}
-              width="300"
+              className="h-20 m-4"
             />
           </a>
         </div>
@@ -49,9 +49,11 @@ const Gallery = () => {
   };
 
   return (
-    <div>
-      <h1>Instagram Gallery</h1>
-      <div>{media.map(renderMedia)}</div>
+    <div className="mt-[6rem] flex items-center justify-center flex-col">
+      <h1 className="font text-3xl">Gallery</h1>
+      <div className="flex flex-wrap items-center justify-center w-[64rem]">
+        {media.map(renderMedia)}
+      </div>
     </div>
   );
 };
