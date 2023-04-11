@@ -89,34 +89,41 @@ function Policy() {
             information we collect? Review the privacy notice in full.
           </p>
           <p>TABLE OF CONTENTS </p>
-          <p>
-            1. WHAT INFORMATION DO WE COLLECT? <br /> <br /> 2. HOW DO WE
-            PROCESS YOUR INFORMATION? <br /> <br /> 3. WHAT LEGAL BASES DO WE
-            RELY ON TO PROCESS YOUR PERSONAL INFORMATION? <br /> <br /> 4. WHEN
-            AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION? <br /> <br />
-            5. HOW LONG DO WE KEEP YOUR INFORMATION? <br /> <br /> 6. HOW DO WE
-            KEEP YOUR INFORMATION SAFE? <br /> <br /> 7. DO WE COLLECT
-            INFORMATION FROM MINORS? <br /> <br />
-            8. WHAT ARE YOUR PRIVACY RIGHTS? <br /> <br /> 9. CONTROLS FOR
-            DO-NOT-TRACK FEATURES 10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC
-            PRIVACY RIGHTS? <br /> <br /> 11. DO WE MAKE UPDATES TO THIS NOTICE?
-            <br /> <br /> 12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? <br />
-            <br /> 13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT
-            FROM YOU? <br /> <br />
-            1. WHAT INFORMATION DO WE COLLECT? <br /> Personal information you
-            disclose to us In Short:
-            <br /> We collect personal information that you provide to us.
-            <br /> We collect personal information that you voluntarily provide
-            to us when you express an interest in obtaining information about us
-            or our products and Services, when you participate in activities on
-            the Services, or otherwise when you contact us.
-            <br /> Personal Information Provided by You. The personal
-            information that we collect depends on the context of your
-            interactions with us and the Services, the choices you make, and the
-            products and features you use. The personal information we collect
-            may include the following:
-            <br />
-          </p>
+          <ul>
+            <li>1. WHAT INFORMATION DO WE COLLECT?</li>
+            <li> 2. HOW DO WE PROCESS YOUR INFORMATION?</li>
+            <li>
+              3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL
+              INFORMATION?
+            </li>
+            <li>
+              4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+            </li>
+            <li> 5. HOW LONG DO WE KEEP YOUR INFORMATION? </li>
+            <li>6. HOW DO WE KEEP YOUR INFORMATION SAFE? </li>
+            <li>7. DO WE COLLECT INFORMATION FROM MINORS? </li>
+            <li>8. WHAT ARE YOUR PRIVACY RIGHTS?</li>
+            <li>9. CONTROLS FOR DO-NOT-TRACK FEATURES</li>
+            <li>10. DO WE MAKE UPDATES TO THIS NOTICE?</li>
+            <li>11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</li>
+            <li>
+              12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
+              YOU?
+            </li>
+          </ul>
+          1. WHAT INFORMATION DO WE COLLECT? <br /> Personal information you
+          disclose to us In Short:
+          <br /> We collect personal information that you provide to us.
+          <br /> We collect personal information that you voluntarily provide to
+          us when you express an interest in obtaining information about us or
+          our products and Services, when you participate in activities on the
+          Services, or otherwise when you contact us.
+          <br /> Personal Information Provided by You. The personal information
+          that we collect depends on the context of your interactions with us
+          and the Services, the choices you make, and the products and features
+          you use. The personal information we collect may include the
+          following:
+          <br />
           <p>
             <ul>
               <li>names</li>
@@ -341,21 +348,37 @@ function Policy() {
               administration and use of your account, to respond to service
               requests, or for other non-marketing purposes. If you have
               questions or comments about your privacy rights, you may email us
-              at Gowild.dogwalking@gmail.com. 9. CONTROLS FOR DO-NOT-TRACK
-              FEATURES Most web browsers and some mobile operating systems and
-              mobile applications include a DoNot-Track ('DNT') feature or
-              setting you can activate to signal your privacy preference not to
-              have data about your online browsing activities monitored and
-              collected. At this stage no uniform technology standard for
-              recognising and implementing DNT signals has been finalised. As
-              such, we do not currently respond to DNT browser signals or any
-              other mechanism that automatically communicates your choice not to
-              be tracked online. If a standard for online tracking is adopted
-              that we must follow in the future, we will inform you about that
-              practice in a revised version of this privacy notice. 10. DO WE
-              MAKE UPDATES TO THIS NOTICE?
-              <br /> In Short: Yes, we will update this notice as necessary to
-              stay compliant with relevant laws.
+              at Gowild.dogwalking@gmail.com.
+              <br />
+              <br />
+              <p>
+                9. CONTROLS FOR DO-NOT-TRACK FEATURES Most web browsers and some
+                mobile operating systems and mobile applications include a
+                DoNot-Track ('DNT') feature or setting you can activate to
+                signal your privacy preference not to have data about your
+                online browsing activities monitored and collected. At this
+                stage no uniform technology standard for recognising and
+                implementing DNT signals has been finalised. As such, we do not
+                currently respond to DNT browser signals or any other mechanism
+                that automatically communicates your choice not to be tracked
+                online. If a standard for online tracking is adopted that we
+                must follow in the future, we will inform you about that
+                practice in a revised version of this privacy notice.
+              </p>
+              <p>
+                <br />
+                10. DO WE MAKE UPDATES TO THIS NOTICE?
+                <br /> In Short: Yes, we will update this notice as necessary to
+                stay compliant with relevant laws. We may update this privacy
+                notice from time to time. The updated version will be indicated
+                by an updated 'Revised' date and the updated version will be
+                effective as soon as it is accessible. If we make material
+                changes to this privacy notice, we may notify you either by
+                prominently posting a notice of such changes or by directly
+                sending you a notification. We encourage you to review this
+                privacy notice frequently to be informed of how we are
+                protecting your information.
+              </p>
             </p>
             <br />
           </div>
@@ -364,18 +387,14 @@ function Policy() {
         <div>
           <div>
             <p>
-              We may update this privacy notice from time to time. The updated
-              version will be indicated by an updated 'Revised' date and the
-              updated version will be effective as soon as it is accessible. If
-              we make material changes to this privacy notice, we may notify you
-              either by prominently posting a notice of such changes or by
-              directly sending you a notification. We encourage you to review
-              this privacy notice frequently to be informed of how we are
-              protecting your information. 11. HOW CAN YOU CONTACT US ABOUT THIS
-              NOTICE?
+              11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
               <br /> If you have questions or comments about this notice, you
-              may email us at Gowild.dogwalking@gmail.com 12. HOW CAN YOU
-              REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
+              may email us at Gowild.dogwalking@gmail.com
+            </p>
+            <br />
+            <p>
+              12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
+              YOU?
               <br /> You have the right to request access to the personal
               information we collect from you, change that information, or
               delete it. To request to review, update, or delete your personal

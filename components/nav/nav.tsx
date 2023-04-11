@@ -4,12 +4,21 @@ import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
 import logo from "../../public/assets/Logo/logo2.png";
+import { usePathname } from "next/navigation";
+
+const links = [
+  { href: "/", text: "Home" },
+  { href: "/about", text: "About" },
+  { href: "/services", text: "Services" },
+  { href: "/gallery", text: "Gallery" },
+  { href: "/contact", text: "Contact" },
+];
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
-
+  const path = usePathname();
   const handleNav = () => {
     setNav(!nav);
   };
@@ -38,34 +47,23 @@ const Nav = () => {
             <Image src={logo} alt="logo icon" className="w-16"></Image>
           </Link>
           <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-            <li className={"p-4 navhover"}>
-              <Link className="shadow1 font text-[#41cf34]" href="/">
-                Home
-              </Link>
-            </li>
-            <li className={"p-4 navhover"}>
-              <Link className="shadow1 font text-[#41cf34]" href="/about">
-                About
-              </Link>
-            </li>
-            <li className={"p-4 navhover"}>
-              <Link className="shadow1 font text-[#41cf34]" href="/services">
-                Services
-              </Link>
-            </li>
-            <li className={"p-4 navhover"}>
-              <Link className="shadow1 font text-[#41cf34]" href="/gallery">
-                Gallery
-              </Link>
-            </li>
-            <li className={"p-4 navhover"}>
-              <Link className="shadow1 font text-[#41cf34]" href="/contact">
-                Contact
-              </Link>
-            </li>
+            {links.map((link) => (
+              <li
+                className={`${
+                  link.href === path
+                    ? " text-[#ffffff] bg-[#1f6419] shadow1 p-4 m-1 font rounded-[1rem]"
+                    : "shadow1 p-4 m-1 navhover font text-[#41cf34]"
+                }`}
+                key={link.href}
+              >
+                <Link href={link.href}>
+                  <p>{link.text}</p>
+                </Link>
+              </li>
+            ))}
           </ul>
 
-          {/* Mobile Button */}
+          {/* Mobile Button  */}
           <div onClick={handleNav} className="block sm:hidden z-10">
             {nav ? (
               <AiOutlineClose size={20} style={{ color: "white" }} />
@@ -73,7 +71,6 @@ const Nav = () => {
               <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
             )}
           </div>
-          {/* Mobile Menu */}
           <div
             className={
               nav
@@ -82,36 +79,15 @@ const Nav = () => {
             }
           >
             <ul>
-              <li
-                onClick={handleNav}
-                className="p-4 text-4xl hover:text-gray-500"
-              >
-                <Link href="/">Home</Link>
-              </li>
-              <li
-                onClick={handleNav}
-                className="p-4 text-4xl hover:text-gray-500"
-              >
-                <Link href="/about">About</Link>
-              </li>
-              <li
-                onClick={handleNav}
-                className="p-4 text-4xl hover:text-gray-500"
-              >
-                <Link href="/services">Services</Link>
-              </li>
-              <li
-                onClick={handleNav}
-                className="p-4 text-4xl hover:text-gray-500"
-              >
-                <Link href="/gallery">Gallery</Link>
-              </li>
-              <li
-                onClick={handleNav}
-                className="p-4 text-4xl hover:text-gray-500"
-              >
-                <Link href="/contact">Contact</Link>
-              </li>
+              {links.map((link) => (
+                <li
+                  className="p-4 text-4xl hover:text-gray-500"
+                  key={link.href}
+                  onClick={handleNav}
+                >
+                  <Link href={link.href}> {link.text}</Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

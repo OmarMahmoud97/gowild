@@ -62,16 +62,11 @@
 }
 .navhover {
   transition: 0.25s ease-in-out;
+  border-radius: 1rem;
 }
 .navhover:hover {
-  color: #41cf34;
-  background: radial-gradient(
-    ellipse,
-    rgba(125, 125, 125, 0.2) 5%,
-    rgba(255, 255, 255, 0) 60%
-  );
-  border-radius: 1rem;
-  scale: 1.15;
+  background-color: #1f6419;
+  color: rgb(255, 255, 255);
 }
 .service {
   background: linear-gradient(45deg, #80ffdb, #41cf34);
@@ -102,4 +97,65 @@
   .hover:hover {
     padding: 1rem 5rem;
   }
+}
+
+.card-wrapper {
+  background-color: #343741;
+  height: 500px;
+  width: 320px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0;
+  transform: scale(0.95);
+  transition: transform 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
+.card-wrapper:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+.card-container {
+  width: 100%;
+  height: 100%;
+}
+.card-header {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+}
+.card-header img {
+  max-width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.card-wrapper:hover .card-header img {
+  transform: scale(1.2) rotate(3deg);
+}
+.card-footer {
+  height: 15%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transition: color 0.5s;
+  color: #fff;
+  background-color: #1f6419;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-footer-title span {
+  font-family: Oswald;
+  font-size: 24px;
+  position: absolute;
+  left: 30%;
+  bottom: 25px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 0 1px #fff;
 }
