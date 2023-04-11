@@ -1,12 +1,12 @@
 import Image from "next/image";
 import solo from "../../public/assets/serviceAssets/suki.jpg";
-import group from "../../public/assets/serviceAssets/67a96425-faa9-43ec-a777-cdfc450a2523.png";
+import groups from "../../public/assets/serviceAssets/group.png";
 import bird from "../../public/assets/serviceAssets/bird.png";
 import bunny from "../../public/assets/serviceAssets/bunny.png";
 
 const cards = [
   { pic: solo, text: "Solo Walk", href: "/soloWalk", alt: "solo walks" },
-  { pic: group, text: "Group Walk", href: "/groupWalk", alt: "group walks" },
+  { pic: groups, text: "Group Walk", href: "/groupWalk", alt: "group walks" },
   { pic: bird, text: "House Visit", href: "/houseVisit", alt: "house visits" },
   {
     pic: bunny,
