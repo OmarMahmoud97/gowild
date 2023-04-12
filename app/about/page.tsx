@@ -1,8 +1,11 @@
 import Image from "next/image";
 import rachJack from "../../public/assets/about/rach-jack.png";
+import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
 function About() {
   return (
-    <div className="w-screen h-[70vh] flex items-center justify-center flex-col mt-[6rem]">
+    <div className="w-screen min-h-[80vh] flex items-center justify-center flex-col mt-[6rem]">
+      <BackgroundAnimation />
+
       <h1 className="text-3xl mb-[1rem] font-bold">About us</h1>
       <div className="flex flex-col-reverse sm:flex-row items-center justify-center sm:w-[70rem]">
         <div className="flex items-center justify-center flex-col sm:w-1/2 sm:mr-6 p-4">

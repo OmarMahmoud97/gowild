@@ -1,8 +1,11 @@
+import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
+
 function SoloWalk() {
   return (
-    <div className="h-[100vh] mt-[6rem]">
+    <section className="h-[100vh] mt-[6rem]">
       <p>SoloWalk</p>
-    </div>
+      <BackgroundAnimation />
+    </section>
   );
 }
 

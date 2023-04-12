@@ -1,6 +1,10 @@
+import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
+
 function Contact() {
   return (
     <div className="mt-[6rem] h-[70vh] flex items-center justify-center">
+      <BackgroundAnimation />
+
       <div className="lg:w-full h-full flex flex-col items-center justify-between">
         <h1 className=" text-black text-3xl textshadow my-3 font-bold">
           Contact

@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
 
 interface InstagramMedia {
   id: string;
@@ -48,7 +49,8 @@ const Gallery = () => {
   };
 
   return (
-    <section className="mt-[6rem] h-[70vh] flex items-center justify-between flex-col">
+    <section className="mt-[6rem] min-h-[70vh] z-50 flex items-center justify-between flex-col overflow-scroll">
+      <BackgroundAnimation />
       <h1 className="font text-3xl">Gallery</h1>
       <div className="flex items-center justify-center w-full h-full">
         <div className="flex flex-wrap items-center justify-center w-[64rem]">

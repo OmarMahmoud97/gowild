@@ -1,3 +1,4 @@
+import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
 import Landing from "../../components/landing/landing";
 import Cards from "@/components/cards/cards";
 import Copy from "@/components/copy/copy";
@@ -8,6 +9,7 @@ function HomePage() {
     <>
       <Landing />
       <div className="flex w-screen flex-col items-center justify-center">
+        <BackgroundAnimation />
         <Copy />
         <Cards />
         <div className="sm:w-[100vw] dogcontainer flex sm:items-center sm:justify-center">
