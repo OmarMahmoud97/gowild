@@ -9,56 +9,55 @@ interface InstagramMedia {
   media_url: string;
   permalink: string;
   caption?: string;
-  timestamp?: string;
   username?: string;
 }
 
 const Gallery = () => {
   const [media, setMedia] = useState<InstagramMedia[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const fetchInstagramMedia = async () => {
       try {
         const response = await axios.get(
-          `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_KEY}`
+          `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,username&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_KEY}`
         );
-
         setMedia(response.data.data);
+        setLoading(false);
       } catch (error) {
         console.error("Error fetching Instagram media:", error);
+        setLoading(false);
       }
     };
     fetchInstagramMedia();
   }, []);
 
-  const renderMedia = (item: InstagramMedia) => {
-    if (item.media_type === "IMAGE" || item.media_type === "CAROUSEL_ALBUM") {
-      return (
-        <div key={item.id}>
-          {/* <a href={item.permalink} target="_blank" rel="noopener noreferrer"> */}
-          <img
-            src={item.media_url}
-            alt={item.caption || "Instagram Image"}
-            className=" h-64 w-64 object-cover m-4"
-          />
-          {/* </a>*/}
-        </div>
-      );
-    }
-    return null;
-  };
-
   return (
-    <section className="mt-[6rem] h-[120vh] z-50 flex items-center justify-between flex-col ">
-      {/* <BackgroundAnimation /> */}
+    <section className="mt-[6rem] h-[110vh] z-50 flex items-center justify-between flex-col ">
       <h1 className="font text-3xl font-bold">Gallery</h1>
+      <BackgroundAnimation />
+
       <div className="flex items-center justify-center w-full h-full">
         <div className="flex flex-wrap items-center justify-center w-[64rem] h-[100vh] overflow-scroll">
-          {media.map(renderMedia)}
+          {loading ? (
+            <p>loading</p>
+          ) : (
+            media.map((item: InstagramMedia) =>
+              item.media_type === "IMAGE" ||
+              item.media_type === "CAROUSEL_ALBUM" ? (
+                <div key={item.id}>
+                  <img
+                    src={item.media_url}
+                    alt={item.caption || "Instagram Image"}
+                    className=" h-64 w-64 object-cover m-4"
+                  />
+                </div>
+              ) : null
+            )
+          )}
         </div>
       </div>
     </section>
   );
 };
-
 export default Gallery;

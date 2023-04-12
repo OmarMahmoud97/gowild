@@ -30,14 +30,21 @@ function Service() {
       <div className="flex items-center sm:w-[64rem] justify-evenly h-4/5 flex-wrap ">
         {cards.map((card) => (
           <article className="flex items-center justify-center">
-            <a href={card.href} className="card-wrapper">
-              <div className="card-container">
-                <div className="card-header">
-                  <Image src={card.pic} alt={card.alt} />
+            <a
+              href={card.href}
+              className="card-wrapper relative overflow-hidden h-[400px] w-64"
+            >
+              <div className="card-container h-full w-full">
+                <div className="card-header absolute flex items-center justify-center h-full">
+                  <Image
+                    src={card.pic}
+                    alt={card.alt}
+                    className="h-full max-w-full"
+                  />
                 </div>
-                <div className="card-footer"></div>
-                <div className="card-footer-title">
-                  <span className="roboto-bold">{card.text}</span>
+                <div className="card-footer h-[15%] absolute bottom-0 left-0 right-0 text-center flex items-center justify-center text-white"></div>
+                <div className="card-footer-title ">
+                  <span className="font absolute text-white">{card.text}</span>
                 </div>
               </div>
             </a>
