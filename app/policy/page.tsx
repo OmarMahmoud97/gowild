@@ -4,16 +4,17 @@ function Policy() {
       <div className="w-[64rem]">
         <div>
           <div className="w-full flex items-center justify-center flex-col">
-            <h1 className=""> PRIVACY POLICY</h1>
+            <h1> PRIVACY POLICY</h1>
             <br />
             <p>Last updated April 05, 2023 </p>
           </div>
 
           <p>
             <br /> INFORMATION This privacy notice for gowilddogwalking
-            ('Company', 'we', 'us', or 'our'), describes how and why we might
-            collect, store, use, and/or share ('process') your information when
-            you use our services ('Services'), such as when you:
+            (&apos;Company&apos;, &apos;we&apos;, &apos;us&apos;, or
+            &apos;our&apos;), describes how and why we might collect, store,
+            use, and/or share (&apos;process&apos;) your information when you
+            use our services (&apos;Services&apos;), such as when you:
           </p>
           <br />
           <p>
@@ -172,8 +173,8 @@ function Policy() {
               date/time stamps associated with your usage, pages and files
               viewed, searches, and other actions you take such as which
               features you use), device event information (such as system
-              activity, error reports (sometimes called 'crash dumps'), and
-              hardware settings). <br />
+              activity, error reports (sometimes called &apos;crash
+              dumps&apos;), and hardware settings). <br />
               <br />
               2.
               <br /> HOW DO WE PROCESS YOUR INFORMATION?
@@ -183,9 +184,9 @@ function Policy() {
               your information for other purposes with your consent. We process
               your personal information for a variety of reasons, depending on
               how you interact with our Services, including: To save or protect
-              an individual's vital interest. We may process your information
-              when necessary to save or protect an individual’s vital interest,
-              such as to prevent harm. <br />
+              an individual&apos;s vital interest. We may process your
+              information when necessary to save or protect an individual&apos;s
+              vital interest, such as to prevent harm. <br />
               <br />
               3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
               <br /> In Short: We only process your personal information when we
@@ -292,8 +293,8 @@ function Policy() {
               data from or market to children under 18 years of age. By using
               the Services, you represent that you are at least 18 or that you
               are the parent or guardian of such a minor and consent to such
-              minor dependent’s use of the Services. If we learn that personal
-              information from users less than 18 years of age has been
+              minor dependent&apos;s use of the Services. If we learn that
+              personal information from users less than 18 years of age has been
               collected, we will deactivate the account and take reasonable
               measures to promptly delete such data from our records. If you
               become aware of any data we may have collected from children under
@@ -319,9 +320,9 @@ function Policy() {
               to data portability. In certain circumstances, you may also have
               the right to object to the processing of your personal
               information. You can make such a request by contacting us by using
-              the contact details provided in the section 'HOW CAN YOU CONTACT
-              US ABOUT THIS NOTICE?
-              <br /> ' below. We will consider and act upon any request in
+              the contact details provided in the section &apos;HOW CAN YOU
+              CONTACT US ABOUT THIS NOTICE?
+              <br /> &apos; below. We will consider and act upon any request in
               accordance with applicable data protection laws. If you are
               located in the EEA or UK and you believe we are unlawfully
               processing your personal information, you also have the right to
@@ -332,19 +333,20 @@ function Policy() {
               process your personal information, you have the right to withdraw
               your consent at any time. You can withdraw your consent at any
               time by contacting us by using the contact details provided in the
-              section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
-              <br /> ' below. However, please note that this will not affect the
-              lawfulness of the processing before its withdrawal nor, will it
-              affect the processing of your personal information conducted in
-              reliance on lawful processing grounds other than consent. Opting
-              out of marketing and promotional communications: You can
-              unsubscribe from our marketing and promotional communications at
-              any time by replying 'STOP' or 'UNSUBSCRIBE' to the SMS messages
-              that we send, or by contacting us using the details provided in
-              the section 'HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
-              <br /> ' below. You will then be removed from the marketing lists.
-              However, we may still communicate with you — for example, to send
-              you service- related messages that are necessary for the
+              section &apos;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+              <br /> &apos; below. However, please note that this will not
+              affect the lawfulness of the processing before its withdrawal nor,
+              will it affect the processing of your personal information
+              conducted in reliance on lawful processing grounds other than
+              consent. Opting out of marketing and promotional communications:
+              You can unsubscribe from our marketing and promotional
+              communications at any time by replying &apos;STOP&apos; or
+              &apos;UNSUBSCRIBE&apos; to the SMS messages that we send, or by
+              contacting us using the details provided in the section &apos;HOW
+              CAN YOU CONTACT US ABOUT THIS NOTICE?
+              <br /> &apos; below. You will then be removed from the marketing
+              lists. However, we may still communicate with you — for example,
+              to send you service- related messages that are necessary for the
               administration and use of your account, to respond to service
               requests, or for other non-marketing purposes. If you have
               questions or comments about your privacy rights, you may email us
@@ -354,10 +356,10 @@ function Policy() {
               <p>
                 9. CONTROLS FOR DO-NOT-TRACK FEATURES Most web browsers and some
                 mobile operating systems and mobile applications include a
-                DoNot-Track ('DNT') feature or setting you can activate to
-                signal your privacy preference not to have data about your
-                online browsing activities monitored and collected. At this
-                stage no uniform technology standard for recognising and
+                DoNot-Track (&apos;DNT&apos;) feature or setting you can
+                activate to signal your privacy preference not to have data
+                about your online browsing activities monitored and collected.
+                At this stage no uniform technology standard for recognising and
                 implementing DNT signals has been finalised. As such, we do not
                 currently respond to DNT browser signals or any other mechanism
                 that automatically communicates your choice not to be tracked
@@ -371,12 +373,12 @@ function Policy() {
                 <br /> In Short: Yes, we will update this notice as necessary to
                 stay compliant with relevant laws. We may update this privacy
                 notice from time to time. The updated version will be indicated
-                by an updated 'Revised' date and the updated version will be
-                effective as soon as it is accessible. If we make material
-                changes to this privacy notice, we may notify you either by
-                prominently posting a notice of such changes or by directly
-                sending you a notification. We encourage you to review this
-                privacy notice frequently to be informed of how we are
+                by an updated &apos;Revised&apos; date and the updated version
+                will be effective as soon as it is accessible. If we make
+                material changes to this privacy notice, we may notify you
+                either by prominently posting a notice of such changes or by
+                directly sending you a notification. We encourage you to review
+                this privacy notice frequently to be informed of how we are
                 protecting your information.
               </p>
             </p>

@@ -35,8 +35,8 @@ function About() {
           </p>
           <p className="text-center mb-2 text-sm font-semibold">
             If you have any questions about our services, or you are interested
-            in them, please don't hesitate to reach out. We would be more than
-            happy to help you and your furry, scaley or even spikey friend!
+            in them, please don&apos;t hesitate to reach out. We would be more
+            than happy to help you and your furry, scaley or even spikey friend!
           </p>
         </div>
       </div>
