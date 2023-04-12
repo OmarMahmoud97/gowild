@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .shadow1 {
-  text-shadow: 0.1rem 0.1rem 0.4rem rgb(0, 0, 0);
-} */
+::root {
+  overflow-x: hidden;
+}
 .shadow2 {
   text-shadow: 0.2rem 0.2rem 0.6rem black;
 }
@@ -101,8 +101,8 @@
 
 .card-wrapper {
   background-color: #343741;
-  height: 500px;
-  width: 320px;
+  height: 400px;
+  width: 256px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;

@@ -9,7 +9,6 @@ function HomePage() {
     <>
       <Landing />
       <div className="flex w-screen flex-col items-center justify-center">
-        <BackgroundAnimation />
         <Copy />
         <Cards />
         <div className="sm:w-[100vw] dogcontainer flex sm:items-center sm:justify-center">

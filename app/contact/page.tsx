@@ -2,10 +2,10 @@ import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnim
 
 function Contact() {
   return (
-    <div className="mt-[6rem] h-[70vh] flex items-center justify-center">
+    <div className="mt-[6rem] h-[100vh] flex items-center justify-center">
       <BackgroundAnimation />
       <div className="lg:w-full h-full flex flex-col items-center justify-between">
-        <h1 className=" text-black text-3xl textshadow my-3 font-bold">
+        <h1 className=" text-black text-3xl textshadow font-bold font">
           Contact
         </h1>
         <div className="h-full w-full flex items-center justify-center">

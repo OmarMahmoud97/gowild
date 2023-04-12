@@ -35,13 +35,13 @@ const Gallery = () => {
     if (item.media_type === "IMAGE" || item.media_type === "CAROUSEL_ALBUM") {
       return (
         <div key={item.id}>
-          <a href={item.permalink} target="_blank" rel="noopener noreferrer">
-            <img
-              src={item.media_url}
-              alt={item.caption || "Instagram Image"}
-              className=" h-56 w-56 object-cover m-4"
-            />
-          </a>
+          {/* <a href={item.permalink} target="_blank" rel="noopener noreferrer"> */}
+          <img
+            src={item.media_url}
+            alt={item.caption || "Instagram Image"}
+            className=" h-64 w-64 object-cover m-4"
+          />
+          {/* </a>*/}
         </div>
       );
     }
@@ -49,11 +49,11 @@ const Gallery = () => {
   };
 
   return (
-    <section className="mt-[6rem] min-h-[70vh] z-50 flex items-center justify-between flex-col overflow-scroll">
-      <BackgroundAnimation />
-      <h1 className="font text-3xl">Gallery</h1>
+    <section className="mt-[6rem] h-[120vh] z-50 flex items-center justify-between flex-col ">
+      {/* <BackgroundAnimation /> */}
+      <h1 className="font text-3xl font-bold">Gallery</h1>
       <div className="flex items-center justify-center w-full h-full">
-        <div className="flex flex-wrap items-center justify-center w-[64rem]">
+        <div className="flex flex-wrap items-center justify-center w-[64rem] h-[100vh] overflow-scroll">
           {media.map(renderMedia)}
         </div>
       </div>

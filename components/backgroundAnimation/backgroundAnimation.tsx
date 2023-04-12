@@ -2,19 +2,19 @@ import "./bganimation.css";
 
 function BackgroundAnimation() {
   return (
-    <div className="flex items-center left-[-15rem] justify-center w-screen h-screen absolute z-[-10]">
+    <div className="flex items-center justify-center absolute z-[-10] ">
       <section className=" w-screen h-screen">
         <svg
           version="1.1"
           id="home-anim"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
-          viewBox="0 0 1820 1080"
-          style={{ backgroundColor: "white", width: "110%", height: "110%" }}
+          viewBox="0 0 100% 100%"
+          style={{ backgroundColor: "#ffff", width: "100%", height: "110%" }}
         >
           <g id="home">
             <defs>
-              <rect id="masque" width="110%" height="110%" className="st0" />
+              <rect id="masque" width="150%" height="150%" className="st0" />
             </defs>
             <clipPath id="cache">
               <use xlinkHref="#masque" style={{ overflow: "visible" }} />
