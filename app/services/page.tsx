@@ -29,11 +29,10 @@ function Service() {
       <h1 className="font text-3xl mb-[2rem] h-fit">Services</h1>
       <div className="flex items-center sm:w-[64rem] justify-evenly h-4/5 flex-wrap ">
         {cards.map((card) => (
-          <article className="flex items-center justify-center">
+          <article className="flex items-center justify-center" key={card.href}>
             <a
               href={card.href}
               className="card-wrapper relative overflow-hidden h-[400px] w-64"
-              key={card.href}
             >
               <div className="card-container h-full w-full">
                 <div className="card-header absolute flex items-center justify-center h-full">
