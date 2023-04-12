@@ -33,6 +33,7 @@ function Service() {
             <a
               href={card.href}
               className="card-wrapper relative overflow-hidden h-[400px] w-64"
+              key={card.href}
             >
               <div className="card-container h-full w-full">
                 <div className="card-header absolute flex items-center justify-center h-full">
@@ -40,7 +41,6 @@ function Service() {
                     src={card.pic}
                     alt={card.alt}
                     className="h-full max-w-full"
-                    key={card.href}
                   />
                 </div>
                 <div className="card-footer h-[15%] absolute bottom-0 left-0 right-0 text-center flex items-center justify-center text-white"></div>
