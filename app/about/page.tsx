@@ -9,7 +9,7 @@ function About() {
       <div className="flex flex-col-reverse sm:flex-row items-center justify-center sm:w-[70rem] h-[100%]">
         <div className="flex items-center justify-center flex-col w-[50rem] sm:mr-6 p-4">
           <Image
-            className="w-[24rem] p-5 radius"
+            className="w-[24rem] p-5 rounded-[2rem]"
             src={rachJack}
             alt="Picture of rachel (founder) with a lovely dog"
           ></Image>
