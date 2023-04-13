@@ -43,7 +43,7 @@ const Gallery = () => {
           {loading ? (
             <div className="flex flex-col items-center justify-center">
               <Image src={loader} alt="Loading" className=" scale-150" />
-              <p>Loading...</p>
+              <p>Wait one paw...</p>
             </div>
           ) : (
             media.map((item: InstagramMedia) =>
