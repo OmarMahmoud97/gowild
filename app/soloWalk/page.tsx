@@ -19,7 +19,7 @@ function SoloWalk() {
               One-on-One Walk
             </h1>
             <p className="w-full text-center">
-              Price: £27 (2 hours, including travel time)
+              Price: £27 &#40;2 hours, including travel time&#41;
             </p>
           </div>
           <p className="text-center">
@@ -31,8 +31,8 @@ function SoloWalk() {
           </p>
           <ul>
             <li className="list-disc">
-              2-hour total service time (including pick-up, travel, and
-              drop-off)
+              2-hour total service time &#40;including pick-up, travel, and
+              drop-off&#41;
             </li>
             <li className="list-disc">1-hour personalized walk</li>
             <li className="list-disc">Tailored to your dog's specific needs</li>

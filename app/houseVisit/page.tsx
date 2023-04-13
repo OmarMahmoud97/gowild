@@ -19,7 +19,7 @@ function HouseVisit() {
               House Visits
             </h1>
             <p className="w-full text-center">
-              Price: £15 (20/30 minute visit)
+              Price: £15 &#40;20/30 minute visit&#41;
             </p>
           </div>
           <p className="text-center">

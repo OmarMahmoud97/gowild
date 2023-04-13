@@ -14,36 +14,36 @@ function Footer() {
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <ul className="flex h-full sm:h-[6rem] items-start mr-4  justify-between flex-col">
+          <nav className="flex h-full sm:h-[6rem] items-start mr-4  justify-between flex-col">
             <Link href="/">
-              <li className="text-white hover:text-black">Home</li>
+              <p className="text-white hover:text-black">Home</p>
             </Link>
             <Link href="/about">
-              <li className="text-white hover:text-black">About us</li>
+              <p className="text-white hover:text-black">About us</p>
             </Link>
             <Link href="/services">
-              <li className="text-white hover:text-black">Services</li>
+              <p className="text-white hover:text-black">Services</p>
             </Link>
             <Link href="/gallery">
-              <li className="text-white hover:text-black">Gallery</li>
+              <p className="text-white hover:text-black">Gallery</p>
             </Link>
-          </ul>
-          <ul className="flex h-full sm:h-[6rem] items-start justify-between flex-col">
+          </nav>
+          <nav className="flex h-full sm:h-[6rem] items-start justify-between flex-col">
             <Link href="/contact">
-              <li className="text-white hover:text-black">Contact</li>
+              <p className="text-white hover:text-black">Contact</p>
             </Link>
             <Link href="/careers">
-              <li className="text-white hover:text-black">Careers</li>
+              <p className="text-white hover:text-black">Careers</p>
             </Link>
             <Link href="/policy">
-              <li className="text-white hover:text-black">Privacy Policy</li>
+              <p className="text-white hover:text-black">Privacy Policy</p>
             </Link>
             <Link href="/terms">
-              <li className="text-white hover:text-black">
+              <p className="text-white hover:text-black">
                 Terms and Conditions
-              </li>
+              </p>
             </Link>
-          </ul>
+          </nav>
         </div>
 
         <div className=" text-white hover:text-black flex items-center justify-end h-full">

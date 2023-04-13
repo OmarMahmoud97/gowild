@@ -19,7 +19,7 @@ function GroupWalk() {
               Small Group Walks
             </h1>
             <p className="w-full text-center">
-              Price: £18 (2 hours, including travel time)
+              Price: £18 &#40;2 hours, including travel time&#41;
             </p>
           </div>
           <p className="text-center">
@@ -33,8 +33,8 @@ function GroupWalk() {
           </p>
           <ul>
             <li className="list-disc">
-              2-hour total service time (including pick-up, travel, and
-              drop-off)
+              2-hour total service time &#40;including pick-up, travel, and
+              drop-off&#41;
             </li>
             <li className="list-disc">1-hour group walk with up to 4 dogs</li>
             <li className="list-disc">
