@@ -4,7 +4,7 @@ import groups from "../../public/assets/serviceAssets/group.png";
 import lizard from "../../public/assets/serviceAssets/Lizard.jpg";
 import cuddling from "../../public/assets/serviceAssets/cuddling.jpg";
 import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
-
+import Link from "next/link";
 const cards = [
   { pic: solo, text: "Solo Walk", href: "/soloWalk", alt: "solo walks" },
   { pic: groups, text: "Group Walk", href: "/groupWalk", alt: "group walks" },
@@ -30,7 +30,7 @@ function Service() {
       <div className="flex items-center sm:w-[64rem] justify-evenly h-4/5 flex-wrap ">
         {cards.map((card) => (
           <article className="flex items-center justify-center" key={card.href}>
-            <a
+            <Link
               href={card.href}
               className="card-wrapper relative overflow-hidden h-[400px] w-64"
             >
@@ -47,7 +47,7 @@ function Service() {
                   <span className="font absolute text-white">{card.text}</span>
                 </div>
               </div>
-            </a>
+            </Link>
           </article>
         ))}
       </div>
