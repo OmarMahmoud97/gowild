@@ -19,7 +19,7 @@ function GroupWalk() {
               Small Group Walks
             </h1>
             <p className="w-full text-center">
-              Price: £18 &#40;2 hours, including travel time&#41;
+              Price: &#163;18 &#40;2 hours, including travel time&#41;
             </p>
           </div>
           <p className="text-center">
