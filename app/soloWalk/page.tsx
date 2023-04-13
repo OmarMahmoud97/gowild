@@ -26,7 +26,7 @@ function SoloWalk() {
             Treat your dog to an exclusive one-on-one walk, including a 1-hour
             walk tailored to their individual needs and preferences. Our Solo
             Walks are perfect for dogs that require extra attention or training.
-            By using positive reinforcement techniques, we'll encourage good
+            By using positive reinforcement techniques, we&#39;ll encourage good
             behavior while building a strong bond with your furry friend.
           </p>
           <ul>
@@ -35,7 +35,9 @@ function SoloWalk() {
               drop-off&#41;
             </li>
             <li className="list-disc">1-hour personalized walk</li>
-            <li className="list-disc">Tailored to your dog's specific needs</li>
+            <li className="list-disc">
+              Tailored to your dog&#39;s specific needs
+            </li>
             <li className="list-disc">
               Varied walking locations to keep dogs engaged
             </li>
