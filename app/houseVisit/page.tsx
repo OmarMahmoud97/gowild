@@ -28,7 +28,7 @@ function HouseVisit() {
             other small animals. Our 20-30 minute visits include feeding,
             cleaning, cuddling, and any other specific needs your pet may have.
             With our expertise in administering medication, rest assured that
-            your beloved pets are in capable hands. Plus, we'll send regular
+            your beloved pets are in capable hands. Plus, we&#39;ll send regular
             picture updates to keep you connected! Additional services such as
             watering plants can also be arranged.
           </p>

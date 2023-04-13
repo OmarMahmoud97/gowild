@@ -26,18 +26,19 @@ function HouseSit() {
             Ensure your beloved pet receives the ultimate care and attention
             with our In-Home Overnight Stays service. Our experienced caregivers
             will stay at your home, providing a cozy and familiar environment
-            for your pet while you're away. This service offers you peace of
+            for your pet while you&#39;re away. This service offers you peace of
             mind and allows your pet to maintain their usual routines. Our
-            caregivers will ensure that your pet's needs are met, from feeding
-            to playtime and cuddles. We'll keep you updated with regular photo
-            updates, so you can be confident your pet is in good hands.
+            caregivers will ensure that your pet&#39;s needs are met, from
+            feeding to playtime and cuddles. We&#39;ll keep you updated with
+            regular photo updates, so you can be confident your pet is in good
+            hands.
           </p>
           <ul>
             <li className="list-disc">
               Overnight care in the comfort of your own home
             </li>
             <li className="list-disc">
-              Personalized care tailored to your pet's needs
+              Personalized care tailored to your pet&#39;s needs
             </li>
             <li className="list-disc">
               Regular photo updates to keep you connected
