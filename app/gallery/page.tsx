@@ -32,7 +32,6 @@ const Gallery = () => {
     };
     fetchInstagramMedia();
   }, []);
-
   return (
     <section className="mt-[6rem] h-[110vh] z-50 flex items-center justify-between flex-col ">
       <h1 className="font text-3xl font-bold">Gallery</h1>
