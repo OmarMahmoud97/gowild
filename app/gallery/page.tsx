@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
-
+import Image from "next/image";
+import loader from "@/public/assets/dog-loader.gif";
 interface InstagramMedia {
   id: string;
   media_type: string;
@@ -40,7 +41,10 @@ const Gallery = () => {
       <div className="flex items-center justify-center w-full h-full">
         <div className="flex flex-wrap items-center justify-center w-[64rem] h-[100vh] overflow-scroll">
           {loading ? (
-            <p>loading</p>
+            <div className="flex flex-col items-center justify-center">
+              <Image src={loader} alt="Loading" className=" scale-150" />
+              <p>Loading...</p>
+            </div>
           ) : (
             media.map((item: InstagramMedia) =>
               item.media_type === "IMAGE" ||
