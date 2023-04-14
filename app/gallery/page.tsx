@@ -60,7 +60,7 @@ const Gallery = () => {
   const displayMedia = media.slice(startIndex, endIndex);
 
   return (
-    <section className="mt-[6rem]  z-50 flex items-center justify-between flex-col ">
+    <section className="mt-[6rem] min-h-screen z-50 flex items-center justify-between flex-col ">
       <h1 className="font text-3xl font-bold">Gallery</h1>
       <BackgroundAnimation />
 
