@@ -3,7 +3,7 @@ import rachJack from "../../public/assets/about/rach-jack.png";
 import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
 function About() {
   return (
-    <div className="w-screen h-[110vh] flex items-center justify-between flex-col mt-[6rem]">
+    <div className="w-screen h-[100vh] flex items-center justify-between flex-col mt-[6rem]">
       <BackgroundAnimation />
       <h1 className="text-3xl mb-[1rem] font-bold">About us</h1>
       <div className="flex flex-col-reverse sm:flex-row items-center justify-center sm:w-[70rem] h-[100%]">
