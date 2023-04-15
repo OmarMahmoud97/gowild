@@ -21,12 +21,15 @@ const Gallery = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const imagesPerPage = 12;
+  const startIndex = (currentPage - 1) * imagesPerPage;
+  const endIndex = startIndex + imagesPerPage;
+  const displayMedia = media.slice(startIndex, endIndex);
+  const totalPages = Math.ceil(media.length / imagesPerPage);
 
   useEffect(() => {
     fetchInstagramMedia();
   }, []);
 
-  const totalPages = Math.ceil(media.length / imagesPerPage);
   const fetchInstagramMedia = async (after = "") => {
     try {
       const url = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,username,children{media_type,media_url}&limit=200&access_token=${
@@ -54,10 +57,6 @@ const Gallery = () => {
     setCurrentPage(currentPage + direction);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
-  const startIndex = (currentPage - 1) * imagesPerPage;
-  const endIndex = startIndex + imagesPerPage;
-  const displayMedia = media.slice(startIndex, endIndex);
 
   return (
     <section className="mt-[6rem] min-h-screen z-50 flex items-center justify-between flex-col ">
@@ -95,7 +94,7 @@ const Gallery = () => {
         >
           Previous
         </button>
-        <span className="text-xl font-bold mx-6">{`Page ${currentPage} of ${totalPages}`}</span>
+        <span className="font font-semi-bold mx-6">{`Page ${currentPage} of ${totalPages}`}</span>
         <button
           disabled={endIndex >= media.length}
           onClick={() => paginate(1)}
