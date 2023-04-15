@@ -14,15 +14,19 @@ function HouseVisit() {
           />
         </div>
         <div className="w-1/2 flex items-center justify-between h-full flex-col">
-          <div>
+          <div className="m-2">
             <h1 className="font text-3xl font-bold w-full text-center">
               House Visits
             </h1>
+            <p className="w-full text-center">Price:</p>
+
+            <p className="w-full text-center">1 Visit = &#163;15</p>
+            <p className="w-full text-center">2 Visits = &#163;25</p>
             <p className="w-full text-center">
-              Price: &#163;15 &#40;20/30 minute visit&#41;
+              &#40;each visit is 20/30 minutes&#41;
             </p>
           </div>
-          <p className="text-center">
+          <p className="text-center m-2">
             Planning a little getaway? or heading out for the afternoon? We
             provide attentive pet visits for dogs, cats, rodents, reptiles, and
             other small animals. Our 20-30 minute visits include feeding,
