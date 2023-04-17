@@ -19,7 +19,8 @@ function HouseSit() {
               House Sitting
             </h1>
             <p className="w-full text-center">
-              Price: &#163;55 &#40;Overnight stay - Regular clients Only&#41;
+              Price: &#163;60 &#40;Regular clients Only - Additional dogs £30
+              each&#41;
             </p>
           </div>
           <p className="text-center">
