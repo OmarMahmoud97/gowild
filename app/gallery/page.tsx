@@ -89,15 +89,15 @@ const Gallery = () => {
         <button
           disabled={currentPage === 1}
           onClick={() => paginate(-1)}
-          className="btn cursor-pointer text-xs font-bold uppercase text-white bg-green-600 p-2 hover:bg-white hover:text-green-600"
+          className="btn cursor-pointer text-xs font-bold uppercase text-white bg-green-600 sm:p-2 hover:bg-white hover:text-green-600"
         >
           Previous
         </button>
-        <span className="font font-semi-bold mx-6">{`Page ${currentPage} of ${totalPages}`}</span>
+        <span className="font font-semi-bold mx-2 sm:mx-6 text-center">{`Page ${currentPage} of ${totalPages}`}</span>
         <button
           disabled={endIndex >= media.length}
           onClick={() => paginate(1)}
-          className="btn cursor-pointer text-xs font-bold uppercase text-white bg-green-600 p-2 hover:bg-white hover:text-green-600"
+          className="btn cursor-pointer text-xs font-bold uppercase text-white bg-green-600 sm:p-2 hover:bg-white hover:text-green-600"
         >
           Next
         </button>

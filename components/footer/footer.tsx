@@ -6,15 +6,15 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="w-screen footer flex justify-center items-center p-2 bg-[#1d5d17]">
-      <div className="w-[64rem] h-full flex items-center justify-between">
-        <div>
+    <footer className="w-screen footer flex justify-center items-center p-2 bg-[#1d5d17] h-[35vh] sm:h-[30vh]">
+      <div className="w-[64rem] h-full flex items-center justify-between flex-col sm:flex-row p-2 sm:p-0">
+        <div className="hidden sm:flex">
           <Link href="/">
             <Image alt="logo - go wild" className="w-28" src={Logo1}></Image>
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <nav className="flex h-full sm:h-[6rem] items-start mr-4  justify-between flex-col">
+          <nav className="flex h-full sm:h-[6rem] items-start mr-4  justify-between flex-col w-1/2">
             <Link href="/">
               <p className="text-white hover:text-black">Home</p>
             </Link>
@@ -28,7 +28,7 @@ function Footer() {
               <p className="text-white hover:text-black">Gallery</p>
             </Link>
           </nav>
-          <nav className="flex h-full sm:h-[6rem] items-start justify-between flex-col">
+          <nav className="flex h-full sm:h-[6rem] items-start justify-between flex-col w-1/2 sm:min-w-max">
             <Link href="/contact">
               <p className="text-white hover:text-black">Contact</p>
             </Link>
