@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
 import Image from "next/image";
@@ -26,11 +26,7 @@ const Gallery = () => {
   const displayMedia = media.slice(startIndex, endIndex);
   const totalPages = Math.ceil(media.length / imagesPerPage);
 
-  useEffect(() => {
-    fetchInstagramMedia();
-  }, []);
-
-  const fetchInstagramMedia = async (after = "") => {
+  const fetchInstagramMedia = useCallback(async (after = "") => {
     try {
       const url = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,username,children{media_type,media_url}&limit=200&access_token=${
         process.env.NEXT_PUBLIC_INSTAGRAM_KEY
@@ -51,7 +47,11 @@ const Gallery = () => {
       console.error("Error fetching Instagram media:", error);
       setLoading(false);
     }
-  };
+  }, []);
+
+  useEffect(() => {
+    fetchInstagramMedia();
+  }, [fetchInstagramMedia]);
 
   const paginate = (direction: number) => {
     setCurrentPage(currentPage + direction);
@@ -78,7 +78,7 @@ const Gallery = () => {
                   <img
                     src={item.media_url}
                     alt={item.caption || "Instagram Image"}
-                    className=" h-72 w-72 object-cover m-4"
+                    className="h-72 w-72 object-cover m-4"
                   />
                 </div>
               ) : null
