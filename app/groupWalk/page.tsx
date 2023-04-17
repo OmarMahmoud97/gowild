@@ -19,9 +19,7 @@ function GroupWalk() {
             <h1 className="font text-3xl font-bold w-full text-center m-2">
               Small Group Walks
             </h1>
-            <p className="w-full text-center m-2">
-              &#40;2 hours, including travel time&#41;
-            </p>
+            <p className="w-full text-center m-2">&#40;1 Hour walk&#41;</p>
           </div>
           <div className="w-full">
             <div className="table-container w-full table text-center bg-white align-middle">

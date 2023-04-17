@@ -19,7 +19,7 @@ function SoloWalk() {
               One-on-One Walk
             </h1>
             <p className="w-full text-center">
-              Price: &#163;30 &#40;2 hours, including travel time&#41;
+              Price: &#163;30 &#40;1 Hour walk&#41;
             </p>
           </div>
           <p className="text-center">
