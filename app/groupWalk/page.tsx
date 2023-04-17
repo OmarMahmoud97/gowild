@@ -20,36 +20,36 @@ function GroupWalk() {
               Small Group Walks
             </h1>
             <p className="w-full text-center m-2">
-              Price: &#163;18 &#40;2 hours, including travel time&#41;
+              &#40;2 hours, including travel time&#41;
             </p>
           </div>
           <div className="w-full">
-            <div className="table-container">
-              <table>
+            <div className="table-container w-full table text-center bg-white align-middle">
+              <table className="w-[80%] m-auto border-collapse">
                 <thead>
                   <tr>
-                    <th>Dogs</th>
-                    <th>Price</th>
+                    <th className="w-1/2 text-center p-1  bg-[#41cf3459]">
+                      Dogs
+                    </th>
+                    <th className="w-1/2 text-center p-1 bg-[#41cf3459]">
+                      Price
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>1 Dog</td>
-                    <td>&#163;18</td>
+                    <td className="w-1/2 text-center p-1">1 Dog</td>
+                    <td className="w-1/2 text-center p-1">&#163;18</td>
                   </tr>
                   <tr>
-                    <td>2 Dogs</td>
-                    <td>&#163;28</td>
-                  </tr>
-                  <tr>
-                    <td>3 Dogs</td>
-                    <td>&#163;40</td>
+                    <td className="w-1/2 text-center p-1">2 Dogs</td>
+                    <td className="w-1/2 text-center p-1">&#163;28</td>
                   </tr>
                 </tbody>
                 <tfoot>
                   <tr>
-                    <td>4 Dogs</td>
-                    <td>&#163;50</td>
+                    <td className="w-1/2 text-center p-1">3 Dogs</td>
+                    <td className="w-1/2 text-center p-1">&#163;40</td>
                   </tr>
                 </tfoot>
               </table>

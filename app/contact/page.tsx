@@ -10,7 +10,7 @@ function Contact() {
         </h1>
         <div className="h-full w-full flex items-center justify-center">
           <form
-            action="https://getform.io/f/e254fb14-ba47-4572-be84-be3a137b3bf4"
+            action="https://formsubmit.co/e9e9b8033960406dbe4dead28a0dff99"
             className="max-w-3xl flex flex-col w-10/12 mb-8"
             method="POST"
           >
