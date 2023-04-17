@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="overflow-x-hidden">
+      <body className="overflow-x-hidden w-screen">
         <Nav />
         {children}
         <Footer />

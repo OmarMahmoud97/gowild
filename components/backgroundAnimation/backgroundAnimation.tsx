@@ -2,7 +2,7 @@ import "./bganimation.css";
 
 function BackgroundAnimation() {
   return (
-    <div className="flex items-center justify-center absolute z-[-10] ">
+    <div className="sm:flex items-center justify-center absolute z-[-10] hidden">
       <section className=" w-screen h-screen">
         <svg
           version="1.1"
