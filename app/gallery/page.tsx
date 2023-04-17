@@ -62,7 +62,6 @@ const Gallery = () => {
     <section className="mt-[6rem] min-h-screen z-50 flex items-center justify-between flex-col ">
       <h1 className="font text-3xl font-bold">Gallery</h1>
       <BackgroundAnimation />
-
       <div className="flex items-center justify-center w-full h-full">
         <div className="flex flex-wrap items-center justify-center w-[64rem] ">
           {loading ? (
@@ -106,5 +105,4 @@ const Gallery = () => {
     </section>
   );
 };
-
 export default Gallery;

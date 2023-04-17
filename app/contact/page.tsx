@@ -2,7 +2,7 @@ import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnim
 
 function Contact() {
   return (
-    <div className="mt-[6rem] h-[80vh] flex items-center justify-center">
+    <div className="mt-[6rem] h-[100vh] flex items-center justify-center">
       <BackgroundAnimation />
       <div className="lg:w-full h-full flex flex-col items-center justify-between">
         <h1 className="text-black text-3xl textshadow font-bold font">
@@ -47,6 +47,72 @@ function Contact() {
                 <input
                   type="text"
                   placeholder="Last name..."
+                  required
+                  name="Last name"
+                  id="small-input"
+                  className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
+                />
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div className="mx-1 w-6/12 my-2">
+                <label
+                  htmlFor="small-input"
+                  className=" textshadow block mb-2 text-sm font-medium text-gray-900 "
+                >
+                  Pet Name:
+                </label>
+                <input
+                  type="text"
+                  placeholder="Pet name..."
+                  name="name"
+                  id="small-input"
+                  className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
+                />
+              </div>
+              <div className="mx-1 w-6/12 my-2">
+                <label
+                  htmlFor="small-input"
+                  className=" textshadow block mb-2 text-sm font-medium text-gray-900 "
+                >
+                  Pet breed/ species
+                </label>
+                <input
+                  type="text"
+                  placeholder="Pet breed/ species"
+                  name="Last name"
+                  id="small-input"
+                  className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
+                />
+              </div>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className="mx-1 w-6/12 my-2">
+                <label
+                  htmlFor="small-input"
+                  className=" textshadow block mb-2 text-sm font-medium text-gray-900 "
+                >
+                  Pet Age
+                </label>
+                <input
+                  type="text"
+                  placeholder="Pet Age..."
+                  name="name"
+                  id="small-input"
+                  className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
+                />
+              </div>
+              <div className="mx-1 w-6/12 my-2">
+                <label
+                  htmlFor="small-input"
+                  className=" textshadow block mb-2 text-sm font-medium text-gray-900 "
+                >
+                  Location
+                </label>
+                <input
+                  type="text"
+                  placeholder="e.g. N12"
                   required
                   name="Last name"
                   id="small-input"

@@ -23,7 +23,7 @@ function HouseVisit() {
             <p className="w-full text-center">1 Visit = &#163;15</p>
             <p className="w-full text-center">2 Visits = &#163;25</p>
             <p className="w-full text-center">
-              &#40;each visit is 20/30 minutes&#41;
+              &#40;Each visit is 45-60 minutes&#41;
             </p>
           </div>
           <p className="text-center m-2">
