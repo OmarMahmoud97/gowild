@@ -4,16 +4,16 @@ import pic from "@/public/assets/card-backgrounds/jackson.jpg";
 import "../../components/cards/cards.css";
 function HouseSit() {
   return (
-    <section className="h-[100vh] mt-[6rem] w-screen flex items-center justify-center flex-col">
-      <div className="flex items-center justify-center w-[64rem] h-[70%]]">
-        <div className="w-1/2 flex items-center justify-center ">
+    <section className="sm:h-[100vh] mt-[6rem] w-screen flex items-center justify-center flex-col p-4">
+      <div className="flex items-center justify-center sm:w-[64rem] h-[70%] flex-col sm:flex-row">
+        <div className="sm:w-1/2 flex items-center justify-center sm:p-0">
           <Image
-            className="w-80 rounded-xl"
+            className="w-60 rounded-xl m-2 sm:m-0 sm:w-80"
             src={pic}
             alt="Solo dog walk Image"
           />
         </div>
-        <div className="w-1/2 flex items-center justify-between h-full flex-col">
+        <div className="sm:w-1/2 flex items-center justify-between h-full flex-col">
           <div>
             <h1 className="font text-3xl font-bold w-full text-center">
               House Sitting
@@ -34,7 +34,7 @@ function HouseSit() {
             regular photo updates, so you can be confident your pet is in good
             hands.
           </p>
-          <ul>
+          <ul className="p-2">
             <li className="list-disc">
               Overnight care in the comfort of your own home
             </li>
