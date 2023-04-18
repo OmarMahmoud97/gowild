@@ -10,11 +10,15 @@ function Footer() {
       <div className="w-[64rem] h-full flex items-center justify-between flex-col sm:flex-row p-2 sm:p-0">
         <div className="hidden sm:flex">
           <Link href="/">
-            <Image alt="logo - go wild" className="w-28" src={Logo1}></Image>
+            <Image
+              alt="logo - go wild"
+              className="w-20 lg:w-28"
+              src={Logo1}
+            ></Image>
           </Link>
         </div>
         <div className="flex items-center justify-center">
-          <nav className="flex h-full sm:h-[6rem] items-start mr-4  justify-between flex-col w-1/2">
+          <nav className="flex h-full lg:h-[6rem] items-start mr-4  justify-between flex-col w-1/2">
             <Link href="/">
               <p className="text-white hover:text-black">Home</p>
             </Link>
@@ -47,7 +51,7 @@ function Footer() {
         </div>
 
         <div className=" text-white hover:text-black flex items-center justify-end h-full">
-          <div className="flex items-center justify-between flex-col h-1/2 sm:h-[6rem]">
+          <div className="flex items-center justify-between flex-col h-1/2 lg:h-[6rem]">
             <div className="flex items-center justify-evenly w-1/2">
               <a
                 href="https://www.facebook.com/gowild.dogwalking/?fref=mentions&paipv=0&eav=Afa4SGTnMS91DVJMaFBZdN7LC6ZL8itSucyRlEkW9FCAfBLhTF-_ohnLVPdKgz1UMAw&_rdr"

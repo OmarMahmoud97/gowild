@@ -24,10 +24,10 @@ const cards = [
 
 function Service() {
   return (
-    <section className="mt-[6rem] mb-[2rem] sm:h-[80vh] flex items-center sm:justify-between flex-col">
+    <section className="mt-[6rem] mb-[2rem]  flex items-center sm:justify-between flex-col min-h-[80vh]">
       <BackgroundAnimation />
       <h1 className="font text-3xl mb-[2rem] h-fit">Services</h1>
-      <div className="flex items-center sm:w-[64rem] justify-evenly h-4/5 flex-wrap ">
+      <div className="flex items-center lg:w-[64rem] justify-evenly h-4/5 flex-wrap ">
         {cards.map((card) => (
           <article className="flex items-center justify-center" key={card.href}>
             <Link

@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .clip-path {
+    clip-path: url(#cache);
+  }
+
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .draw-animation {
+    animation: draw 15s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+}
 ::root {
   overflow-x: hidden;
 }
