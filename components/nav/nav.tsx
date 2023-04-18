@@ -46,7 +46,7 @@ const Nav = () => {
           <Link href="/">
             <Image src={logo} alt="logo icon" className="w-16"></Image>
           </Link>
-          <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
+          <ul style={{ color: `${textColor}` }} className="hidden lg:flex">
             {links.map((link) => (
               <li
                 className={`${
@@ -64,7 +64,7 @@ const Nav = () => {
           </ul>
 
           {/* Mobile Button  */}
-          <div onClick={handleNav} className="block sm:hidden z-10">
+          <div onClick={handleNav} className="block lg:hidden z-10">
             {nav ? (
               <AiOutlineClose size={20} style={{ color: "white" }} />
             ) : (
@@ -74,8 +74,8 @@ const Nav = () => {
           <div
             className={
               nav
-                ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#41cf34] text-center ease-in duration-300"
-                : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#41cf34] text-center ease-in duration-300"
+                ? "lg:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#41cf34] text-center ease-in duration-300"
+                : "lg:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#41cf34] text-center ease-in duration-300"
             }
           >
             <ul>
