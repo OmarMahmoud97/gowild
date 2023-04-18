@@ -1,6 +1,6 @@
 function Policy() {
   return (
-    <article className="flex overflow-scroll h-[60vh] justify-center mb-2 mt-[7rem] ">
+    <article className="flex overflow-scroll p-2 justify-center mb-2 mt-[7rem] ">
       <div className="w-[64rem]">
         <div>
           <div className="w-full flex items-center justify-center flex-col">
