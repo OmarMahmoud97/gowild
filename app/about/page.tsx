@@ -3,11 +3,11 @@ import rachJack from "../../public/assets/about/rach-jack.png";
 import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnimation";
 function About() {
   return (
-    <div className="w-screen sm:h-[100vh] flex items-center justify-between flex-col mt-[6rem]">
+    <div className="w-screen lg:h-[100vh] flex items-center justify-between flex-col mt-[6rem]">
       <BackgroundAnimation />
       <h1 className="text-3xl mb-[1rem] font-bold">About us</h1>
       <div className="flex flex-col-reverse sm:flex-row items-center justify-center h-[100%] p-2">
-        <div className="flex items-center justify-center flex-col sm:w-[50rem] p-4 sm:p-0">
+        <div className="flex items-center justify-center flex-col lg:w-[50rem] p-4 sm:p-0 mb-2">
           <Image
             className="w-[24rem] p-5 rounded-[2rem]"
             src={rachJack}
