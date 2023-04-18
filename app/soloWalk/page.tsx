@@ -4,16 +4,16 @@ import pic from "@/public/assets/card-backgrounds/jackson.jpg";
 import "../../components/cards/cards.css";
 function SoloWalk() {
   return (
-    <section className="h-[100vh] mt-[6rem] w-screen flex items-center justify-center flex-col">
-      <div className="flex items-center justify-center w-[64rem] h-[70%]]">
-        <div className="w-1/2 flex items-center justify-center ">
+    <section className="sm:h-[100vh] mt-[6rem] w-screen flex items-center justify-center flex-col my-2 p-4">
+      <div className="flex items-center justify-center sm:w-[64rem] h-[70%] flex-col sm:flex-row">
+        <div className="sm:w-1/2 flex items-center justify-center sm:p-0">
           <Image
-            className="w-80 rounded-xl"
+            className="w-60 rounded-xl m-2 sm:m-0 sm:w-80"
             src={pic}
             alt="Solo dog walk Image"
           />
         </div>
-        <div className="w-1/2 flex items-center justify-between h-full flex-col">
+        <div className="sm:w-1/2 flex items-center justify-between h-full flex-col">
           <div>
             <h1 className="font text-3xl font-bold w-full text-center">
               One-on-One Walk
@@ -29,7 +29,7 @@ function SoloWalk() {
             By using positive reinforcement techniques, we&#39;ll encourage good
             behavior while building a strong bond with your furry friend.
           </p>
-          <ul>
+          <ul className="p-4">
             <li className="list-disc">
               2-hour total service time &#40;including pick-up, travel, and
               drop-off&#41;
