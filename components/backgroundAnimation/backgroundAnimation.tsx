@@ -11,6 +11,7 @@ function BackgroundAnimation() {
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 100% 100%"
           style={{ backgroundColor: "#ffff", width: "100%", height: "110%" }}
+          className="clip-path"
         >
           <g id="home">
             <defs>
@@ -19,7 +20,10 @@ function BackgroundAnimation() {
             <clipPath id="cache">
               <use xlinkHref="#masque" style={{ overflow: "visible" }} />
             </clipPath>
-            <g id="light-blue">
+            <g
+              id="light-blue"
+              className="fill-none opacity-40 stroke-[#133d0f] stroke-1.5 stroke-miter-10"
+            >
               <line x1="630.8" y1="894.3" x2="476.3" y2="1048.8" />
               <line x1="858.2" y1="823.9" x2="1012.7" y2="669.4" />
               <line x1="1066.9" y1="458.2" x2="912.4" y2="612.7" />
@@ -51,7 +55,10 @@ function BackgroundAnimation() {
               <line x1="1029.7" y1="113.6" x2="875.2" y2="268.2" />
               <line x1="1257.1" y1="43.3" x2="1411.6" y2="-111.2" />
             </g>
-            <g id="red">
+            <g
+              id="red"
+              className="fill-none opacity-40 stroke-[#41cf34] stroke-3 stroke-miter-10 draw-animation"
+            >
               <line x1="794.4" y1="883.4" x2="639.8" y2="1037.9" />
               <line x1="694.6" y1="834.8" x2="849.2" y2="680.3" />
               <line x1="1230.4" y1="447.3" x2="1075.9" y2="601.8" />
@@ -82,7 +89,10 @@ function BackgroundAnimation() {
               <line x1="1193.3" y1="102.7" x2="1038.7" y2="257.3" />
               <line x1="1093.5" y1="54.2" x2="1248.1" y2="-100.3" />
             </g>
-            <g id="blue">
+            <g
+              id="blue"
+              className="fill-none opacity-40 stroke-[#1f6419] stroke-3 stroke-miter-10 draw-animation"
+            >
               <line x1="225.8" y1="1151" x2="534.9" y2="841.9" />
               <line x1="827.1" y1="1003.3" x2="518" y2="1312.3" />
               <line x1="661.9" y1="714.9" x2="971" y2="405.9" />
