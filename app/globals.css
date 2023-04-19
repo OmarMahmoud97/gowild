@@ -6,13 +6,11 @@
   .clip-path {
     clip-path: url(#cache);
   }
-
   @keyframes draw {
     to {
       stroke-dashoffset: 0;
     }
   }
-
   .draw-animation {
     animation: draw 15s;
     animation-fill-mode: forwards;
@@ -20,57 +18,31 @@
     animation-timing-function: ease-out;
   }
 }
-::root {
-  overflow-x: hidden;
+::-webkit-scrollbar {
+  display: none;
 }
 .shadow2 {
   text-shadow: 0.2rem 0.2rem 0.6rem black;
 }
-
-.alice {
-  font-family: alice;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
 .radius {
   border-radius: 2rem;
 }
-
 .scroll1 {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-
 .font {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 .nowrap {
   white-space: nowrap;
 }
-
 .bradius {
   border-radius: 0 0 5rem 5rem;
-}
-
-.orange {
-  color: #f2622e;
-}
-.red {
-  color: #8c4842;
-}
-.yellow {
-  color: #f2e749;
-}
-.yellow2 {
-  color: #f2d544;
 }
 .gowild {
   color: #41cf34;
 }
-
 .overlay {
   background-color: rgba(89, 93, 91, 0.4);
   border-radius: 0 0 5rem 5rem;
@@ -93,30 +65,6 @@
 .serv-hover {
   transition: 0.3s ease-in-out;
 }
-
-@media (min-width: 300px) {
-  .dog {
-    scale: 0.35;
-  }
-  .dogcontainer {
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media (min-width: 620px) {
-  .dog {
-    scale: 0.5;
-  }
-  .gradient {
-    padding: 0.5rem 1.5rem;
-  }
-  .hover:hover {
-    padding: 1rem 5rem;
-  }
-}
-
 .card-wrapper {
   background-color: #343741;
   border-radius: 10px;
@@ -127,7 +75,6 @@
 .card-wrapper:hover {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
 }
-
 .card-header img {
   transition: all 0.5s;
 }
@@ -146,4 +93,25 @@
   bottom: 25px;
   font-weight: 700;
   text-shadow: 0 0 1px #fff;
+}
+@media (min-width: 300px) {
+  .dog {
+    scale: 0.35;
+  }
+  .dogcontainer {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 620px) {
+  .dog {
+    scale: 0.5;
+  }
+  .gradient {
+    padding: 0.5rem 1.5rem;
+  }
+  .hover:hover {
+    padding: 1rem 5rem;
+  }
 }
