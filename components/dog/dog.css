@@ -1,24 +1,3 @@
-.main {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-.leg {
-  position: absolute;
-  bottom: 0;
-  width: 3rem;
-  height: 4.125rem;
-}
-.paw {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 3.75rem;
-  height: 1.875rem;
-  overflow: hidden;
-}
 .paw::before {
   content: "";
   position: absolute;
@@ -55,13 +34,7 @@
   animation: head 10s cubic-bezier(0.3, 0.41, 0.18, 1.01) infinite;
 }
 .dog__head-c {
-  position: absolute;
-  left: 1.5rem;
-  bottom: 0;
-  width: 9.75rem;
-  height: 8.25rem;
   animation: head 10s cubic-bezier(0.3, 0.41, 0.18, 1.01) infinite;
-  z-index: -1;
 }
 .dog__snout {
   border-top-right-radius: 3rem;
@@ -82,37 +55,25 @@
   background-color: #1c3130;
   animation: snout-b 10s cubic-bezier(0.3, 0.41, 0.18, 1.01) infinite;
 }
-
 .dog__eye-l,
 .dog__eye-r {
   animation: eye 10s cubic-bezier(0.3, 0.41, 0.18, 1.01) infinite;
 }
-
 .dog__ear-l,
 .dog__ear-r {
-  position: absolute;
-  width: 10.5rem;
-  height: 3.375rem;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 3.3rem;
   border-bottom-left-radius: 3.3rem;
-  background-color: #e26538;
 }
 .dog__ear-l {
-  top: 1.5rem;
-  left: 6rem;
   transform-origin: bottom left;
   transform: rotateZ(-50deg);
-  z-index: -1;
   animation: ear-l 10s cubic-bezier(0.3, 0.41, 0.18, 1.01) infinite;
 }
 .dog__ear-r {
-  top: 1.5rem;
-  right: 3rem;
   transform-origin: bottom right;
   transform: rotateZ(20deg);
-  z-index: -2;
   animation: ear-r 10s cubic-bezier(0.3, 0.41, 0.18, 1.01) infinite;
 }
 .dog__body {

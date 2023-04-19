@@ -5,15 +5,15 @@ function Dog() {
       <div className="dog relative w-[22.5rem] h-[8.25rem]">
         <div className="dog__paws absolute bottom-0 left-[7.5rem] w-[12rem] h-12">
           <div className="dog__bl-leg left-12 leg z-[-10] absolute bottom-0 w-12 h-[4.125rem]">
-            <div className="dog__bl-paw paw"></div>
+            <div className="dog__bl-paw paw absolute bottom-0 left-0 w-[3.75rem] h-[1.875rem] overflow-hidden"></div>
             <div className="dog__bl-top top "></div>
           </div>
           <div className="dog__fl-leg left-0 leg z-10 absolute bottom-0 w-12 h-[4.125rem]">
-            <div className="dog__fl-paw paw"></div>
+            <div className="dog__fl-paw paw absolute bottom-0 left-0 w-[3.75rem] h-[1.875rem] overflow-hidden"></div>
             <div className="dog__fl-top top "></div>
           </div>
           <div className="dog__fr-leg leg right-0 ">
-            <div className="dog__fr-paw paw"></div>
+            <div className="dog__fr-paw paw absolute bottom-0 left-0 w-[3.75rem] h-[1.875rem] overflow-hidden"></div>
             <div className="dog__fr-top top "></div>
           </div>
         </div>
@@ -29,9 +29,9 @@ function Dog() {
             </div>
           </div>
         </div>
-        <div className="dog__head-c">
-          <div className="dog__ear-l"></div>
-          <div className="dog__ear-r"></div>
+        <div className="dog__head-c absolute left-6 bottom-0 w-[9.75rem] h-[8.25rem] z-[-1]">
+          <div className="dog__ear-l absolute w-[10.5rem] h-[3.375rem] bg-[#e26538] top-[1.5rem] left-24 z-[-1]"></div>
+          <div className="dog__ear-r absolute w-[10.5rem] h-[3.375rem] bg-[#e26538] top-[1.5rem] z-[-2] right-12"></div>
         </div>
       </div>
     </div>
