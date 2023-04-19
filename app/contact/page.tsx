@@ -33,7 +33,6 @@ function Contact() {
                   placeholder="First name..."
                   name="name"
                   required
-                  id="small-input"
                   className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
                 />
               </div>
@@ -49,7 +48,6 @@ function Contact() {
                   placeholder="Last name..."
                   required
                   name="Last name"
-                  id="small-input"
                   className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
                 />
               </div>
@@ -66,8 +64,7 @@ function Contact() {
                 <input
                   type="text"
                   placeholder="Pet name..."
-                  name="name"
-                  id="small-input"
+                  name="pet name"
                   className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
                 />
               </div>
@@ -81,8 +78,7 @@ function Contact() {
                 <input
                   type="text"
                   placeholder="Pet breed/ species"
-                  name="Last name"
-                  id="small-input"
+                  name="pet breed/ species"
                   className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
                 />
               </div>
@@ -99,7 +95,6 @@ function Contact() {
                   type="text"
                   placeholder="Pet Age..."
                   name="name"
-                  id="small-input"
                   className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
                 />
               </div>
@@ -115,7 +110,6 @@ function Contact() {
                   placeholder="e.g. N12"
                   required
                   name="Last name"
-                  id="small-input"
                   className="block font-semibold w-full p-2 text-[#41cf34] border  rounded-lg sm:text-xs bg-white border-[#123d0f] placeholder-gray-400   "
                 />
               </div>
@@ -129,7 +123,6 @@ function Contact() {
               </label>
               <input
                 type="text"
-                id="small-input"
                 name="email"
                 required
                 placeholder="Email..."
@@ -148,7 +141,7 @@ function Contact() {
                 rows={4}
                 name="message"
                 className="block font-semibold p-2.5 w-full text-sm text-[#41cf34] rounded-lg border  bg-white border-[#123d0f] placeholder-gray-400  "
-                placeholder="Leave a comment..."
+                placeholder="Please include as much detail as possible about the pet and the service required..."
                 required
               ></textarea>
             </div>
