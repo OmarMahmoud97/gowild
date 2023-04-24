@@ -16,14 +16,14 @@ function About() {
           <p className="text-center mb-2 text-sm font-semibold">Hello there!</p>
 
           <p className="text-center mb-2 text-sm font-semibold">
-            My name is Rachel & I'm the founder of Go Wild.
+            My name is Rachel & I&#39;m the founder of Go Wild.
           </p>
           <p className="text-center mb-2 text-sm font-semibold">
-            I've been working as a professional dog walker for over 7 years.
+            I&#39;ve been working as a professional dog walker for over 7 years.
             Within this time my knowledge and love for dogs has grown immensely.
-            I've worked with a wide range of dog breeds and sizes, from
+            I&#39;ve worked with a wide range of dog breeds and sizes, from
             Chihuahuas to Bernese mountain dogs. I have experience with dogs who
-            are reactive, nervous, elderly and/or disabled.
+            are reactive, nervous, elderly and&#47;or disabled.
           </p>
           <p className="text-center mb-2 text-sm font-semibold">
             I have completed an extended diploma in Animal Management, I am
@@ -31,14 +31,14 @@ function About() {
           </p>
           <p className="text-center mb-2 text-sm font-semibold">
             I have experience working with a wide range of domestic pets
-            including cats, rodents, reptiles and birds. I've previously
+            including cats, rodents, reptiles and birds. I&#39;ve previously
             volunteered for Cats Protection agency where I worked with lots of
             different cats, all with their own personalities. I also own a cat
             of my own called Millie.
           </p>
           <p className="text-center mb-2 text-sm font-semibold">
             If you are interested in any of our services or have any questions,
-            please get in touch!
+            please get in touch&#33;
           </p>
         </div>
       </div>
