@@ -2,7 +2,7 @@ import BackgroundAnimation from "@/components/backgroundAnimation/backgroundAnim
 import Image from "next/image";
 import pic from "@/public/assets/card-backgrounds/jackson.jpg";
 import "../../components/cards/cards.css";
-function HouseSit() {
+function EveningCare() {
   return (
     <section className="lg:h-[100vh] mt-[6rem] w-screen flex items-center justify-center flex-col p-4">
       <div className="flex items-center justify-center lg:w-[64rem] h-[70%] flex-col lg:flex-row">
@@ -24,26 +24,17 @@ function HouseSit() {
             </p>
           </div>
           <p className="text-center">
-            Ensure your beloved pet receives the ultimate care and attention
-            with our In-Home Overnight Stays service. Our experienced caregivers
-            will stay at your home, providing a cozy and familiar environment
-            for your pet while you&#39;re away. This service offers you peace of
-            mind and allows your pet to maintain their usual routines. Our
-            caregivers will ensure that your pet&#39;s needs are met, from
-            feeding to playtime and cuddles. We&#39;ll keep you updated with
-            regular photo updates, so you can be confident your pet is in good
-            hands.
+            If you're heading out for the afternoon and want your dog to have
+            some company, we offer evening care too. We can entertain your dog,
+            take them for an evening walk and also feed them dinner. This way
+            you can fully relax without worrying about your dog being left alone
+            for too long.
           </p>
           <ul className="p-2">
             <li className="list-disc">
-              Overnight care in the comfort of your own home
-            </li>
-            <li className="list-disc">
               Personalized care tailored to your pet&#39;s needs
             </li>
-            <li className="list-disc">
-              Regular photo updates to keep you connected
-            </li>
+            <li className="list-disc">Photo updates to keep you connected</li>
             <li className="list-disc">Peace of mind for pet owners</li>
             <li className="list-disc">
               Additional services available upon request
@@ -61,4 +52,4 @@ function HouseSit() {
   );
 }
 
-export default HouseSit;
+export default EveningCare;

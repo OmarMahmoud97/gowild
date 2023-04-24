@@ -16,31 +16,25 @@ function SoloWalk() {
         <div className="lg:w-1/2 flex items-center justify-between h-full flex-col">
           <div>
             <h1 className="font text-3xl font-bold w-full text-center">
-              One-on-One Walk
+              Solo Walk
             </h1>
             <p className="w-full text-center">
               Price: &#163;30 &#40;1 Hour walk&#41;
             </p>
           </div>
           <p className="text-center">
-            Treat your dog to an exclusive one-on-one walk, including a 1-hour
-            walk tailored to their individual needs and preferences. Our Solo
-            Walks are perfect for dogs that require extra attention or training.
-            By using positive reinforcement techniques, we&#39;ll encourage good
-            behavior while building a strong bond with your furry friend.
+            Treat your dog to an exclusive 1&#8210; 1 walk, tailored to their
+            individual needs and preferences. Our Solo Walks are perfect for
+            dogs that require extra attention or training. By using positive
+            reinforcement techniques, we&#39;ll encourage good behavior while
+            building a strong bond with your furry friend.
           </p>
           <ul className="p-4">
-            <li className="list-disc">
-              2-hour total service time &#40;including pick-up, travel, and
-              drop-off&#41;
-            </li>
             <li className="list-disc">1-hour personalized walk</li>
             <li className="list-disc">
               Tailored to your dog&#39;s specific needs
             </li>
-            <li className="list-disc">
-              Varied walking locations to keep dogs engaged
-            </li>
+            <li className="list-disc">Varied walking locations</li>
             <li className="list-disc">
               Great option for anxious or reactive dogs
             </li>
