@@ -16,9 +16,9 @@ const cards = [
   },
   {
     pic: cuddling,
-    text: "House Sitting",
-    href: "/houseSitting",
-    alt: "house sitting",
+    text: "Evening Care",
+    href: "/eveningcare",
+    alt: "evening care",
   },
 ];
 

@@ -8,7 +8,6 @@ function Policy() {
             <br />
             <p>Last updated April 05, 2023 </p>
           </div>
-
           <p>
             <br /> INFORMATION This privacy notice for gowilddogwalking
             (&apos;Company&apos;, &apos;we&apos;, &apos;us&apos;, or
@@ -22,10 +21,7 @@ function Policy() {
             website of ours that links to this privacy notice
           </p>
           <br />
-          <p>
-            Engage with us in other related ways, including any sales,
-            marketing, or events
-          </p>
+
           <br />
           <p>
             Questions or concerns?
@@ -35,15 +31,13 @@ function Policy() {
             questions or concerns, please contact us at
             gowild.dogwalking@gmail.com. <br /> <br /> SUMMARY OF KEY POINTS
             <br /> This summary provides key points from our privacy notice, but
-            you can find out more details about any of these topics by clicking
-            the link following each key point or by using our table of contents
-            below to find the section you are looking for. What personal
-            information do we process? <br />
+            you can find out more details about any of these topics by using our
+            table of contents below to find the section you are looking for.
+            What personal information do we process? <br />
             <br /> When you visit, use, or navigate our Services, we may process
             personal information depending on how you interact with
             gowilddogwalking and the Services, the choices you make, and the
-            products and features you use. Learn more about personal information
-            you disclose to us. Do we process any sensitive personal
+            products and features you use. Do we process any sensitive personal
             information? <br />
             <br /> We do not process sensitive personal information. Do we
             receive any information from third parties? <br />
@@ -54,12 +48,10 @@ function Policy() {
             Services, communicate with you, for security and fraud prevention,
             and to comply with law. We may also process your information for
             other purposes with your consent. We process your information only
-            when we have a valid legal reason to do so. Learn more about how we
-            process your information. In what situations and with which parties
-            do we share personal information? <br />
+            when we have a valid legal reason to do so. In what situations and
+            with which parties do we share personal information? <br />
             <br /> We may share information in specific situations and with
-            specific third parties. Learn more about when and with whom we share
-            your personal information.
+            specific third parties.
             <br /> How do we keep your information safe? <br />
             <br /> We have organisational and technical processes and procedures
             in place to protect your personal information. However, no
@@ -76,7 +68,7 @@ function Policy() {
           <p>
             Depending on where you are located geographically, the applicable
             privacy law may mean you have certain rights regarding your personal
-            information. Learn more about your privacy rights.
+            information.
           </p>
           <p>How do you exercise your rights?</p>
           <p>
@@ -97,18 +89,14 @@ function Policy() {
               3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL
               INFORMATION?
             </li>
+            <li>4. HOW LONG DO WE KEEP YOUR INFORMATION? </li>
+            <li>5. HOW DO WE KEEP YOUR INFORMATION SAFE? </li>
+            <li>6. WHAT ARE YOUR PRIVACY RIGHTS?</li>
+            <li>7. CONTROLS FOR DO-NOT-TRACK FEATURES</li>
+            <li>8. DO WE MAKE UPDATES TO THIS NOTICE?</li>
+            <li>9. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</li>
             <li>
-              4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
-            </li>
-            <li> 5. HOW LONG DO WE KEEP YOUR INFORMATION? </li>
-            <li>6. HOW DO WE KEEP YOUR INFORMATION SAFE? </li>
-            <li>7. DO WE COLLECT INFORMATION FROM MINORS? </li>
-            <li>8. WHAT ARE YOUR PRIVACY RIGHTS?</li>
-            <li>9. CONTROLS FOR DO-NOT-TRACK FEATURES</li>
-            <li>10. DO WE MAKE UPDATES TO THIS NOTICE?</li>
-            <li>11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</li>
-            <li>
-              12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
+              10. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
               YOU?
             </li>
           </ul>
@@ -238,24 +226,12 @@ function Policy() {
               as situations involving potential threats to the safety of any
               person. <br />
               <br />
-              4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
-              <br /> In Short: We may share information in specific situations
-              described in this section and/or with the following third parties.
-              We may need to share your personal information in the following
-              situations:
             </p>
             <br />
             <p>
-              Business Transfers. We may share or transfer your information in
-              connection with, or during
-            </p>
-            <br />
-            <p>
-              negotiations of, any merger, sale of company assets, financing, or
-              acquisition of all or a portion of our business to another
-              company. <br />
               <br />
-              5. HOW LONG DO WE KEEP YOUR INFORMATION?
+              <br />
+              4. HOW LONG DO WE KEEP YOUR INFORMATION?
               <br /> In Short: We keep your information for as long as necessary
               to fulfil the purposes outlined in this privacy notice unless
               otherwise required by law. We will only keep your personal
@@ -270,7 +246,7 @@ function Policy() {
               information and isolate it from any further processing until
               deletion is possible.
               <br />
-              <br /> 6. HOW DO WE KEEP YOUR INFORMATION SAFE?
+              <br /> 5. HOW DO WE KEEP YOUR INFORMATION SAFE?
               <br /> In Short: We aim to protect your personal information
               through a system of organisational and technical security
               measures. We have implemented appropriate and reasonable technical
@@ -287,27 +263,14 @@ function Policy() {
               at your own risk. You should only access the Services within a
               secure environment. <br />
               <br />
-              7. DO WE COLLECT INFORMATION FROM MINORS?
-              <br /> In Short: We do not knowingly collect data from or market
-              to children under 18 years of age. We do not knowingly solicit
-              data from or market to children under 18 years of age. By using
-              the Services, you represent that you are at least 18 or that you
-              are the parent or guardian of such a minor and consent to such
-              minor dependent&apos;s use of the Services. If we learn that
-              personal information from users less than 18 years of age has been
-              collected, we will deactivate the account and take reasonable
-              measures to promptly delete such data from our records. If you
-              become aware of any data we may have collected from children under
-              age 18, please contact us at gowild.dogwalking@gmail.com.
             </p>
             <br />
           </div>
         </div>
-
         <div>
           <div>
             <p>
-              8. WHAT ARE YOUR PRIVACY RIGHTS?
+              6. WHAT ARE YOUR PRIVACY RIGHTS?
               <br /> In Short: In some regions, such as the European Economic
               Area (EEA) and United Kingdom (UK), you have rights that allow you
               greater access to and control over your personal information. You
@@ -354,7 +317,7 @@ function Policy() {
               <br />
               <br />
               <p>
-                9. CONTROLS FOR DO-NOT-TRACK FEATURES Most web browsers and some
+                7. CONTROLS FOR DO-NOT-TRACK FEATURES Most web browsers and some
                 mobile operating systems and mobile applications include a
                 DoNot-Track (&apos;DNT&apos;) feature or setting you can
                 activate to signal your privacy preference not to have data
@@ -369,7 +332,7 @@ function Policy() {
               </p>
               <p>
                 <br />
-                10. DO WE MAKE UPDATES TO THIS NOTICE?
+                8. DO WE MAKE UPDATES TO THIS NOTICE?
                 <br /> In Short: Yes, we will update this notice as necessary to
                 stay compliant with relevant laws. We may update this privacy
                 notice from time to time. The updated version will be indicated
@@ -385,17 +348,16 @@ function Policy() {
             <br />
           </div>
         </div>
-
         <div>
           <div>
             <p>
-              11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+              9. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
               <br /> If you have questions or comments about this notice, you
               may email us at Gowild.dogwalking@gmail.com
             </p>
             <br />
             <p>
-              12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
+              10. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
               YOU?
               <br /> You have the right to request access to the personal
               information we collect from you, change that information, or
