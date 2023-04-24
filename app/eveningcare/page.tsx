@@ -16,7 +16,7 @@ function EveningCare() {
         <div className="lg:w-1/2 flex items-center justify-between h-full flex-col">
           <div>
             <h1 className="font text-3xl font-bold w-full text-center">
-              House Sitting
+              Evening Care{" "}
             </h1>
             <p className="w-full text-center">
               Price: &#163;60 &#40;Regular clients Only - Additional dogs £30
