@@ -24,11 +24,11 @@ function EveningCare() {
             </p>
           </div>
           <p className="text-center">
-            If you're heading out for the afternoon and want your dog to have
-            some company, we offer evening care too. We can entertain your dog,
-            take them for an evening walk and also feed them dinner. This way
-            you can fully relax without worrying about your dog being left alone
-            for too long.
+            If you&#39;re heading out for the afternoon and want your dog to
+            have some company, we offer evening care too. We can entertain your
+            dog, take them for an evening walk and also feed them dinner. This
+            way you can fully relax without worrying about your dog being left
+            alone for too long.
           </p>
           <ul className="p-2">
             <li className="list-disc">
