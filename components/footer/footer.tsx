@@ -42,7 +42,7 @@ function Footer() {
             <Link href="/policy">
               <p className="text-white hover:text-black">Privacy Policy</p>
             </Link>
-            <Link href="/terms">
+            <Link href="/terms" className="hidden">
               <p className="text-white hover:text-black">
                 Terms and Conditions
               </p>

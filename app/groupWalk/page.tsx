@@ -55,24 +55,22 @@ function GroupWalk() {
           </div>
           <p className="text-center m-2">
             Let your dog embark on an exciting adventure with up to three other
-            canine companions. Our Small Group Walks ensure that each dog
-            receives the attention they deserve while enjoying stimulating
-            exercise, and socialization. Our positive reinforcement approach
-            fosters good behavior and strengthens the bond between us and your
-            pet. With a variety of walking locations, both your dog and our team
-            will stay engaged and entertained.
+            canine companions. We keep our groups small to ensure all the dogs
+            get the attention they deserve&#33;
           </p>
           <ul>
             <li className="list-disc m-2">
-              2-hour total service time &#40;including pick-up, travel, and
-              drop-off&#41;
+              Stimulating exercise, basic training and socialisation.
             </li>
             <li className="list-disc m-2">
-              1-hour group walk with up to 4 dogs
+              Positive reinforcement to encourage good behaviour and build a
+              strong bond
             </li>
             <li className="list-disc m-2">
-              Varied walking locations to keep dogs engaged
+              Varied walking locations to keep it interesting for the dogs
+              &#40;and us too!&#41;
             </li>
+            <li className="list-disc m-2">Includes pick up/drop off</li>
           </ul>
           <a href="/contact">
             <button className="btn m-2 cursor-pointer mt-6 text-xs font-bold uppercase text-white bg-green-600 p-2 hover:bg-white hover:text-green-600 ">

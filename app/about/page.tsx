@@ -14,29 +14,31 @@ function About() {
             alt="Picture of rachel (founder) with a lovely dog"
           ></Image>
           <p className="text-center mb-2 text-sm font-semibold">Hello there!</p>
+
           <p className="text-center mb-2 text-sm font-semibold">
-            My name is Rachel and I am the founder of Go Wild, a company that
-            prides itself in the care of animals. With over seven years of
-            experience working with a variety animals, my love and knowledge for
-            all animals has grown immensely.
+            My name is Rachel & I&#39;m the founder of Go Wild.
           </p>
           <p className="text-center mb-2 text-sm font-semibold">
-            I have had the privilege of working with various breeds and sizes,
-            including Chihuahuas and Bernese mountain dogs, as well as dogs with
-            reactive, nervous, elderly, and/or disabled traits.
+            I&#39;ve been working as a professional dog walker for over 7 years.
+            Within this time my knowledge and love for dogs has grown immensely.
+            I&#39;ve worked with a wide range of dog breeds and sizes, from
+            Chihuahuas to Bernese mountain dogs. I have experience with dogs who
+            are reactive, nervous, elderly and&#47;or disabled.
           </p>
           <p className="text-center mb-2 text-sm font-semibold">
-            To enhance my expertise, I have completed an extended diploma in
-            Animal Management, and I am insured and DBS checked for your peace
-            of mind. Besides dogs, I have worked with domestic pets such as
-            cats, rodents, reptiles, and birds. I have volunteered for the Cats
-            Protection agency, where I got to know different cats with their
-            unique personalities. I am also a proud owner of a cat named Millie.
+            I have completed an extended diploma in Animal Management, I am
+            insured and DBS checked.
           </p>
           <p className="text-center mb-2 text-sm font-semibold">
-            If you have any questions about our services, or you are interested
-            in them, please don&apos;t hesitate to reach out. We would be more
-            than happy to help you and your furry, scaley or even spikey friend!
+            I have experience working with a wide range of domestic pets
+            including cats, rodents, reptiles and birds. I&#39;ve previously
+            volunteered for Cats Protection agency where I worked with lots of
+            different cats, all with their own personalities. I also own a cat
+            of my own called Millie.
+          </p>
+          <p className="text-center mb-2 text-sm font-semibold">
+            If you are interested in any of our services or have any questions,
+            please get in touch&#33;
           </p>
         </div>
       </div>
